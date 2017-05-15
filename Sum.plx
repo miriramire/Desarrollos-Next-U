@@ -1,9 +1,15 @@
 language: perl
 perl:
-  - "5.14"
+  - "5.8"
+  - "5.8.4"
+  - "5.8.4-thr"
+  - "5.12.2"
+  - "5.20"
+  - "dev"
+  - "blead"
 matrix:
   include:
-    - perl: 5.14
+    - perl: 5.18
       env: COVERAGE=1
   allow_failures:
     - perl: "blead"
@@ -21,14 +27,6 @@ install:
 before_script:
   - coverage-setup
 script:
-#!/usr/bin/perl
-# your code goes here
-use warnings;
-use Data::Dumper qw(Dumper);
-$array = <>;
-my @chars = split / /, $array;
-$a = @chars[0];
-$b = @chars[1];
-print $a + $b;
+  - prove -l -j$(test-jobs) $(test-files)   # parallel testing
 after_success:
   - coverage-report
