@@ -1,9 +1,0 @@
-language: perl6
-perl6:
-  - latest
-  - '2015.07'
-  - '2015.04'
-install:
-  - rakudobrew build-panda
-  - panda installdeps .
-PERL6LIB=lib prove -v -r --exec=perl6 t/
