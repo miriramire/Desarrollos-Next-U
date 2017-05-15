@@ -1,5 +1,8 @@
 language: perl6
 perl6:
-    - '2015.07'
+  - latest
+  - '2015.07'
+  - '2015.04'
 install:
-    - rakudobrew build-panda 2015.07
+  - rakudobrew build-panda
+  - panda installdeps .
