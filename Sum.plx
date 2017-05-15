@@ -1,3 +1,6 @@
+language: perl
+perl:
+  - "5.14"
 #!/usr/bin/perl
 # your code goes here
 use warnings;
