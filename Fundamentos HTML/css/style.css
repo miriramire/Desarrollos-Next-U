@@ -1,0 +1,71 @@
+svg{
+  position: static;
+}
+a{
+  text-decoration: none;
+  font-family: sans-serif;
+  color: white;
+}
+/*Modificacion del Div class nav*/
+.nav{
+  position: relative;
+  text-align: center;
+  height: 200px;
+  background: #00BFFF;
+  color: white;
+}
+/*Modificacion del Div class nav-header que contiene el h1 y p*/
+.nav-header{
+  width: 200px;
+  height: 150px;
+  position: absolute;
+  float: center;
+  padding: 20px 20px 20px 20px;
+  left: 550px;
+  text-align: center;
+  color: white;
+}
+/*Modificacion del Div class nav-image que contiene el svg*/
+.nav-image{
+  position: relative;
+  float: left;
+  padding: 20px 20px 20px 20px;
+  left: 20px;
+}
+/*Modificacion del div class nav-navbar*/
+.nav-navbar{
+  position: relative;
+  float: right;
+  /*top: -150px;*/
+  font-weight: bold;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 10px;
+  padding-right: 20px;
+  top: 50px;
+  right: 20px;
+  border: 2px solid #0080FF;
+  border-radius: 10px;
+	display: inline;
+}
+.navegador li{
+  display: inline-block;
+  position: relative;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.selected{
+  background-color: white;
+  color: #0080FF;
+}
+/*Contenido de la pagina*/
+div {
+  font-family: sans-serif;
+}
+.formulario{
+  margin: 10px 10px 10px 10px;
+  padding: 2px 2px 2px 2px;
+}
+.borde{
+  border-radius: 5px;
+}

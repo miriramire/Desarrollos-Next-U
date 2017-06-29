@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluación Fina</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="nav">
+      <div class="nav-image">
+        <svg width="150" height="150">
+          <a href="index.html"><image xlink:href="images\CV.svg" width="150px" height="150px" x="0" y="0">Logo</image></a>
+        </svg>
+      </div>
+      <div class="nav-header">
+        <h1>Hoja de Vida</h1>
+        <p>Miguel Ramirez</p>
+      </div>
+      <div class="nav-navbar">
+        <ul class="navegador">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="educacion.html" class="selected">Educacion</a></li>
+          <li><a href="experiencia.html">Experiencia</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <div class="content">
+      <h2>Educacion</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Año</th>
+            <th>Institucion</th>
+            <th>Lugar</th>
+            <th>¿Culmino?</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2012</td>
+            <td>OE</td>
+            <td>Online</td>
+            <td>Si</td>
+          </tr>
+          <tr>
+            <td>2012</td>
+            <td>ITM</td>
+            <td>Medellin</td>
+            <td>Si</td>
+          </tr>
+          <tr>
+            <td>2017</td>
+            <td>NecTec</td>
+            <td>Medellin</td>
+            <td>Si</td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <div class="formulario">
+        <label for="anio">Año</label>
+        <select class="borde" name="anio" id="anio">
+          <option value="">Seleccione un Año</option>
+          <option value="2009">2009</option>
+          <option value="2010">2010</option>
+          <option value="2011">2011</option>
+          <option value="2012">2012</option>
+          <option value="2013">2013</option>
+          <option value="2014">2014</option>
+          <option value="2015">2015</option>
+          <option value="2016">2016</option>
+          <option value="2017">2017</option>
+        </select>
+      </div>
+      <div class="formulario">
+        <label for="institucion">Institucion</label>
+        <input type="text" class="borde" name="institucion" id="institucion" required placeholder="Ingrese la institucion"/>
+      </div>
+      <div class="formulario">
+        <label for="lugar">Lugar</label>
+        <input type="text" class="borde" name="lugar" id="lugar" required placeholder="Ingrese el lugar"/>
+      </div>
+      <div class="formulario">
+        <label for="culmino">Culmino</label>
+        <input type="radio" class="borde" name="culmino" id="si">Si
+        <input type="radio" class="borde" name="culmino" id="no">No
+      </div>
+    </div>
+    <button type="button" name="button" onclick="enviar()">Enviar</button>
+    <br>
+    <hr>
+    <div class="contact">
+      <h3>Informacion de contacto</h3>
+      <p><b>Email:</b> miguelramirez@gmail.com</p>
+      <p><b>Cel:</b> 3201234567</p>
+      <p><b>Direccion:</b> Avenida Siempre Viva 123</p>
+    </div>
+  </body>
+</html>
