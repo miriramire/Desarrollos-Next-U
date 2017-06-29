@@ -1,3 +1,0 @@
-function enviar() {
-  alert("Funciona");
-}
