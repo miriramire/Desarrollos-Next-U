@@ -1,4 +1,6 @@
 # Desarrollos-Next-U
 Desarrollos realizados a través de Next U
 #
-Los desarrollos montados seran en perl y perl6
+Los desarrollos montados seran de Desarrollo WEB
+
+Algunos trabajos y los trabajos finales.
