@@ -1,0 +1,126 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Mis paginas</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="w3.css">
+    <script type="text/javascript">
+     var windowObjectReference;
+      function myFunction(){
+      windowObjectReference += window.open("https://rkdyncrm1.exito.redknee.com/Redknee/main.aspx");
+windowObjectReference += window.open("http://201.234.71.55/Portaflow/indexJSP");
+windowObjectReference += window.open("https://172.16.24.72/clifre/ClientesBackend/Inicio");
+windowObjectReference += window.open("http://172.16.24.70/ListasPositivasNegativas/ListasNegativas/ConsultaEquiposHurtadosPerdidos.aspx");
+windowObjectReference += window.open("http://200.31.19.82/SRTM/indexJSP");
+      }
+ 
+function conversionDatos(){
+var datos = document.getElementById("datos").value;
+var tipo = document.getElementById("tipoConversion").value;
+switch (tipo){
+case "kilomegas":
+var resultado = datos/1024;
+document.getElementById("resultado").value = resultado +" - "+"Megas";
+break;
+ 
+case "megagiga":
+var resultado = datos/1024;
+document.getElementById("resultado").value = resultado +" - "+ "Gigas";
+break;
+ 
+case "gigamega":
+var resultado = datos*1024;
+document.getElementById("resultado").value = resultado +" - "+ "Megas";
+break;
+ 
+case "megakilo":
+var resultado = datos*1024;
+document.getElementById("resultado").value = resultado +" - "+ "Kilos";
+break;
+ 
+case "kilogiga":
+var resultado = datos/1048576;
+document.getElementById("resultado").value = resultado +" - "+ "Gigas";
+break;
+ 
+case "gigakilo":
+var resultado = datos*1048576;
+document.getElementById("resultado").value = resultado +" - "+ "Kilos";
+break;
+}
+ 
+}
+
+function conversionMinutos(){
+var minutos = document.getElementById("minutos").value;
+var tipo2 = document.getElementById("tipoConversion2").value;
+switch (tipo2){
+
+case "minseg":
+var resultado2 = minutos*60;
+document.getElementById("resultado2").value = resultado2 +" - "+"Segundos";
+break;
+
+case "segmin":
+var resultado2 = minutos/60;
+document.getElementById("resultado2").value = resultado2 +" - "+"Minutos";
+break;
+}
+
+}
+    </script>
+  </head>
+  <body>
+    <div class="w3-container w3-teal">
+  	  <h1>Paginas de Movil exito</h1>
+      <p>Abrir paginas</p>
+      <button class="w3-button w3-black" onclick="myFunction()" id="boton1">Abrir</button>
+	</div>
+    <div class="w3-cell-row">
+  		<div class="w3-container w3-cell">
+          <div class="w3-container w3-blue">
+  			<h5>Conversor de Datos</h5>
+		</div>
+          <p>
+            <label class="w3-text-blue"><b>Ingrese los datos a convertir:</b></label>
+  			<input class="w3-input w3-border" type="text" id="datos"></p>
+          	<select class="w3-select" id="tipoConversion" name="tipoConversion">
+  <option value="" disabled selected>Seleccione una opcion</option>
+  <option value="kilomegas">de Kilo a Megas</option>
+  <option value="megagiga">de Megas a Gigas</option>
+  <option value="gigamega">de Gigas a Megas</option>
+  <option value="megakilo">de Megas a Kilo</option>
+  <option value="kilogiga">de Kilo a Gigas</option>
+  <option value="gigakilo">de Gigas a Kilo</option>
+
+</select>
+  		<p><input type="button" class="w3-button w3-blue" onclick="conversionDatos()" value="Convertir"></p>
+          <p><input class="w3-input w3-border" type="text" id="resultado" readonly></p>
+  		</div>
+  		<div class="w3-container w3-cell">
+          <div class="w3-container w3-teal">
+    		<h5>Conversor de Minutos</h5>
+          </div>
+          <p>
+            <label class="w3-text-teal"><b>Ingrese los minutos a convertir:</b></label>
+            <input class="w3-input w3-border" type="text" name="minutos" id="minutos">
+          </p>
+          <select class="w3-select" id="tipoConversion2" name="tipoConversion2">
+				<option value="" disabled selected>Seleccione...</option>
+				<option value="minseg">de Minutos a Segundos</option>
+				<option value="segmin">de Segundos a Minutos</option>
+			</select>
+          <p><input type="button" class="w3-button w3-teal" onclick="conversionMinutos()" value="Convertir"></p>
+          <p><input class="w3-input w3-border" name="resultado2" type="text" id="resultado2" readonly></p>
+  		</div>
+	</div>
+    <div class="w3-container w3-center w3-animate-opacity">
+      <div class="w3-panel w3-pale-green w3-bottombar w3-border-green w3-border">
+        <p><b>Ricardo Ramirez.</b></p>
+    	<p>T&eacute;cnico de operaciones HD, M&oacute;vil &Eacute;xito<br>
+			Konecta Colombia, Cll 50 # 40- 17 Int 103<br>
+      		P: (+057) 3052671447</p>
+  	</div>
+	</div>
+  </body>
+</html>
