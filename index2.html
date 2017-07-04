@@ -5,6 +5,74 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="css/w3.css">
+<script type="text/javascript">
+//Con esta funcion abrimos las paginas necesarias para el trabajo diario de un solo click
+var windowObjectReference;
+function abrirPaginas(){
+    windowObjectReference += window.open("https://rkdyncrm1.exito.redknee.com/Redknee/main.aspx");
+    windowObjectReference += window.open("http://201.234.71.55/Portaflow/indexJSP");
+    windowObjectReference += window.open("https://172.16.24.72/clifre/ClientesBackend/Inicio");
+    windowObjectReference += window.open("http://172.16.24.70/ListasPositivasNegativas/ListasNegativas/ConsultaEquiposHurtadosPerdidos.aspx");
+    windowObjectReference += window.open("http://200.31.19.82/SRTM/indexJSP");
+}
+/*
+Con esta funcion convertiremos los Datos y Minutos.
+Estos seran mostrados en un alert.
+*/
+function convertirDyM(){
+  //Conversion Datos
+  var datos = document.getElementById("datos").value;
+  var tipoDatos = document.getElementById("conversionDatos").value;
+  switch (tipoDatos){
+  case "kilomegas":
+  var resultadoDatos = datos/1024;
+  resultadoDatos = resultadoDatos +" - "+"Megas";
+  break;
+
+  case "megagiga":
+  var resultado = datos/1024;
+  resultadoDatos = resultadoDatos +" - "+"Gigas";
+  break;
+
+  case "gigamega":
+  var resultado = datos*1024;
+  resultadoDatos = resultadoDatos +" - "+"Megas";
+  break;
+
+  case "megakilo":
+  var resultado = datos*1024;
+  resultadoDatos = resultadoDatos +" - "+"Kilos";
+  break;
+
+  case "kilogiga":
+  var resultado = datos/1048576;
+  resultadoDatos = resultadoDatos +" - "+"Gigas";
+  break;
+
+  case "gigakilo":
+  var resultado = datos*1048576;
+  resultadoDatos = resultadoDatos +" - "+"Kilos";
+  break;
+  }
+  //Conversion Minutos
+  var minutos = document.getElementById("minutos").value;
+  var tipoMin = document.getElementById("conversionMinutos").value;
+  switch (tipoMin){
+
+    case "minseg":
+    var resultadoMin = minutos*60;
+    resultadoMin = resultadoMin +" - "+"Segundos";
+    break;
+
+    case "segmin":
+    var resultadoMin = minutos/60;
+    resultadoMin = resultadoMin +" - "+"Minutos";
+    break;
+  }
+
+  alert("El resultado es: "+resultadoDatos+" y "+resultadoMin);
+}
+</script>
 <body class="w3-content" style="max-width:1300px">
 
 <!-- First Grid: Menu & General -->
@@ -23,7 +91,7 @@
   <div class="w3-half w3-blue-grey w3-container" style="height:700px">
     <div class="w3-padding-64 w3-center">
       <h1>General</h1>
-      <button type="button" class="w3-button w3-blue-grey w3-hover-black" name="button">Abrir Paginas</button>
+      <button type="button" class="w3-button w3-blue-grey w3-hover-black" onclick="abrirPaginas()" id="boton1">Abrir Paginas</button>
       <div class="w3-left-align w3-padding-large">
         <p>El soporte técnico o asistencia técnica es un rango de servicios por medio del cual se proporciona asistencia a los usuarios al tener algún problema al utilizar un producto o servicio.</p>
         <div class="w3-blue-grey w3-container">
@@ -32,29 +100,31 @@
         <div class="w3-row-padding">
           <div class="w3-half">
             <label>Datos</label>
-            <input class="w3-input w3-border w3-hover-light-grey" type="text" placeholder="Inserte valor">
+            <input class="w3-input w3-border w3-hover-light-grey" type="text" id="datos" placeholder="Inserte valor">
             <br>
-            <select class="w3-select w3-border" name="option">
-              <option value="" disabled selected>Choose your option</option>
-              <option value="1">Option 1</option>
-              <option value="2">Option 2</option>
-              <option value="3">Option 3</option>
+            <select class="w3-select w3-border" id="conversionDatos" name="conversionDatos">
+              <option value="" disabled selected>Seleccione una opcion</option>
+              <option value="kilomegas">de Kilo a Megas</option>
+              <option value="megagiga">de Megas a Gigas</option>
+              <option value="gigamega">de Gigas a Megas</option>
+              <option value="megakilo">de Megas a Kilo</option>
+              <option value="kilogiga">de Kilo a Gigas</option>
+              <option value="gigakilo">de Gigas a Kilo</option>
             </select>
           </div>
           <div class="w3-half">
             <label>Minutos</label>
-            <input class="w3-input w3-border w3-hover-light-grey" type="text" placeholder="Inserte valor">
+            <input class="w3-input w3-border w3-hover-light-grey" type="text" name="minutos" id="minutos" placeholder="Inserte valor">
             <br>
-            <select class="w3-select w3-border" name="option">
-              <option value="" disabled selected>Choose your option</option>
-              <option value="1">Option 1</option>
-              <option value="2">Option 2</option>
-              <option value="3">Option 3</option>
+            <select class="w3-select w3-border" name="option" id="conversionMinutos" name="conversionMinutos">
+              <option value="" disabled selected>Seleccione una opcion</option>
+              <option value="minseg">de Minutos a Segundos</option>
+				      <option value="segmin">de Segundos a Minutos</option>
             </select>
           </div>
         </div>
         <br>
-        <button type="button" class="w3-button w3-blue-grey" name="button">Convertir</button>
+        <button type="button" class="w3-button w3-blue-grey" onclick="convertirDyM()" name="button">Convertir</button>
       </div>
     </div>
   </div>
@@ -75,9 +145,14 @@
         <li>Probar en otro equipo</li>
         <li>Escalar el caso</li>
       </ul>
+      <h3>Por que no Navego en 4G?</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li>El celular debe soportar 4G</li>
+        <li>La banda de 4g es (1700/2100)</li>
+        <li>Configurar APN: movilexito.net.co</li>
+        <li>Configurar Modo de Red: LTE/GSM/WCDMA</li>
+      </ul>
     </div>
-    <br>
-    <p>Just call me awesome.</p>
   </div>
   <div class="w3-half w3-indigo w3-container" style="min-height:800px">
     <div class="w3-padding-64 w3-center">
