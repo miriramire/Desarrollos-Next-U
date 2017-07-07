@@ -1,7 +1,15 @@
-language: perl6
-perl6:
-    - latest
-    - '2015.03'
+language: generic
+addons:
+  apt:
+    packages:
+      - oracle-java8-set-default
 install:
-    - rakudobrew build-panda ${TRAVIS_PERL6_VERSION#latest}
-    - panda installdeps 
+  - git clone --depth 1 https://github.com/whatwg/html-build.git ../html-build
+  - curl -O https://sideshowbarker.net/nightlies/jar/vnu.jar
+script:
+  - ../html-build/build.sh
+  - /usr/lib/jvm/java-8-oracle/jre/bin/java -jar vnu.jar --skip-non-html /home/travis/build/whatwg/html-build/output
+notifications:
+  email:
+    on_success: never
+    on_failure: always
