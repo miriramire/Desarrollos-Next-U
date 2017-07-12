@@ -1,19 +1,44 @@
 body {
 	margin: 20px;
 }
-
+.contenedor{
+      display:flex;
+      flex-direction:row;
+ }
+#contenido{
+      display: flex;
+      flex-direction:column;
+ }
 #destacados {
 	background-color: #669999;
 }
-
+#destacados .contenedor > div {
+      text-align: center;
+      padding: 10px;
+      margin: 10px;
+      background-color: white;
+      width: 50%;
+}
 #ofertas {
 	background-color: #F7D988;
 }
-
+#ofertas .contenedor > div {
+      text-align: center;
+      padding: 10px;
+      margin: 10px;
+       background-color: white;
+      width: 33.3%;
+}
 #disponible {
 	background-color: #F7A188;
 }
-
+#disponible .contenedor > div {
+      text-align: center;
+      padding: 10px;
+      border: solid 5px coral;
+      background-color: white;
+      width: 25%;
+}
 #contenido > section > h1 {
 	padding: 10px;
 	text-align: center;
@@ -25,4 +50,3 @@ footer {
 	padding-top: 10px;
 	text-align: center;
 }
-
