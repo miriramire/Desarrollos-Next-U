@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.4/css/bulma.css">
+</head>
+<body>
+<!--Vista Inicio-->
+<article class="message is-info">
+  <div class="message-header">
+    <h1><strong>CRM</strong></h1>
+    <button class="delete"></button>
+  </div>
+  <div class="message-body">
+    Seleccione una opcion
+    <br>
+    <div class="block">
+      <a class="button is-primary">Registrar Cliente</a>
+      <a class="button is-info">Listar Clientes</a>
+    </div>
+  </div>
+</article>
+<!--Vista Registro-->
+<article class="message is-info">
+  <div class="message-header">
+    <h1><strong>Registro de Cliente</strong></h1>
+    <button class="delete"></button>
+  </div>
+  <div class="message-body">
+  
+  	<div class="field">
+  		<label class="label">ID</label>
+  		<div class="control">
+    		<input class="input" type="text" id="id" placeholder="e.g 1234">
+  		</div>
+	</div>
+    
+    <div class="field">
+  		<label class="label">Nombre</label>
+  		<div class="control">
+    		<input class="input" type="text" id="Nombre" placeholder="e.g Alex">
+  		</div>
+	</div>
+    
+    <div class="field">
+  		<label class="label">Apellido</label>
+  		<div class="control">
+    		<input class="input" type="text" id="Apellido" placeholder="e.g Smith">
+  		</div>
+	</div>
+    
+    <div class="field">
+  		<label class="label">Edad</label>
+  		<div class="control">
+    		<input class="input" type="number" id="edad" placeholder="e.g 18">
+  		</div>
+	</div>
+    
+    <div class="field">
+  		<label class="label">Telefono</label>
+  		<div class="control">
+    		<input class="input" type="text" id="telefono" placeholder="e.g 3332211">
+  		</div>
+	</div>
+
+	<div class="field">
+  		<label class="label">Email</label>
+  		<div class="control">
+    		<input class="input" type="email" id="email" placeholder="e.g. alexsmith@gmail.com">
+  		</div>
+	</div>
+    
+    <br>
+    <div class="block">
+      <a class="button is-primary">Registrar</a>
+      <a class="button is-info">Cancelar</a>
+      <a class="button is-danger">Salir</a>
+    </div>
+  </div>
+</article>
+<!--Vista Listado-->
+<article class="message is-info">
+  <div class="message-header">
+    <h1><strong>Listado de Clientes</strong></h1>
+    <button class="delete"></button>
+  </div>
+  <div class="message-body">
+    <table class="table is-narrow">
+    	<thead>
+        	<tr>
+            	<th>Nombre</th>
+                <th>Apellido</th>
+                <th>Mostrar</th>
+                <th>Eliminar</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <br>
+    <div class="block">
+      <a class="button is-danger">Salir</a>
+    </div>
+  </div>
+</article>
+<!--Vista Modal-->
+<div class="modal">
+  <div class="modal-background"></div>
+  <div class="modal-card">
+    <header class="modal-card-head">
+      <p class="modal-card-title">Detalles </p>
+      <button class="delete"></button>
+    </header>
+    <section class="modal-card-body">
+      <!-- Content ... -->
+
+      <div class="field">
+          <label class="label">ID</label>
+          <div class="control">
+              <input class="input" type="text" id="detalleId" placeholder="e.g 1234">
+          </div>
+      </div>
+
+      <div class="field">
+          <label class="label">Nombre</label>
+          <div class="control">
+              <input class="input" type="text" id="detalleNombre" placeholder="e.g Alex">
+          </div>
+      </div>
+
+      <div class="field">
+          <label class="label">Apellido</label>
+          <div class="control">
+              <input class="input" type="text" id="detalleApellido" placeholder="e.g Smith">
+          </div>
+      </div>
+
+      <div class="field">
+          <label class="label">Edad</label>
+          <div class="control">
+              <input class="input" type="number" id="detalleEdad" placeholder="e.g 18">
+          </div>
+      </div>
+
+      <div class="field">
+          <label class="label">Telefono</label>
+          <div class="control">
+              <input class="input" type="text" id="detalleTelefono" placeholder="e.g 3332211">
+          </div>
+      </div>
+
+      <div class="field">
+          <label class="label">Email</label>
+          <div class="control">
+              <input class="input" type="email" id="detalleEmail" placeholder="e.g. alexsmith@gmail.com">
+          </div>
+      </div>
+
+    </section>
+    <footer class="modal-card-foot">
+      <a class="button is-danger">Salir</a>
+    </footer>
+  </div>
+</div>
+</body>
+</html>
