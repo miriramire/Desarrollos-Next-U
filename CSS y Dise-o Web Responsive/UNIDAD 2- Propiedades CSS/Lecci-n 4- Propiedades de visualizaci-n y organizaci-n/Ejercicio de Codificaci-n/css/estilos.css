@@ -10,6 +10,16 @@ header h1{
 	padding-left: 10px;
 }
 
+header{
+	padding:3px 10px;
+	margin-bottom: 5px;
+	background: linear-gradient(to right, #5CA861 , #BADFBC);
+	background: -webkit-linear-gradient(left, #5CA861 , #BADFBC);
+	background: -o-linear-gradient(right, #5CA861 , #BADFBC);
+	background: -moz-linear-gradient(right, #5CA861 , #BADFBC);
+	border: 10px;
+}
+
 #menu-principal ul {
 	float: left;
 	width: 200px;
@@ -26,6 +36,8 @@ header h1{
 	margin-left: 200px;
 	padding: 10px;
 	color: black;
+	background-image: url(../imagenes/imagen3.jpg);
+	border-radius: 6px;
 }
 
 footer {
@@ -38,4 +50,7 @@ footer {
 
 #contenido p img {
 	float: right;
+	border: solid 2px #605B56;
+	margin: 3px;
+	border-radius: 4px;
 }
