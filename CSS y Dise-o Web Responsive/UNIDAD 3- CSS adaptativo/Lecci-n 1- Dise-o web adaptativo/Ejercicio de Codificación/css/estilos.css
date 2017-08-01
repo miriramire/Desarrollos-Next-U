@@ -16,12 +16,18 @@ header {
 
 header h1 {
 	padding-left: 10px;
+	margin: 1%;
+	font-size: 1.5em;
 }
 
 footer {
-	font-size: 8px;
+	font-size: 0.8em;
 	border-top: solid 2px #1f47a8;
 	padding-top: 10px;
 	margin-top: 15px;
 	text-align: center;
+}
+
+#contenido{
+	margin: 1%;
 }
