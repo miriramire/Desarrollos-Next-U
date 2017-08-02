@@ -1,0 +1,16 @@
+El viewport es un concepto que aparece junto con el Diseño Web Adaptativo y el Diseño web, inicialmente fue pensado para que los sitios web pudieran adaptarse a dispositivos móviles.
+
+Este concepto hace referencia al área disponible para renderizar una página web, es decir, el área visible del navegador (Excluyendo la barra de búsqueda, marcadores, pestañas y demás cosas del navegador).
+
+El viewport se configura dentro de la etiqueta a través de un elemento . Entre los valores de configuración que podemos especificarle se encuentran:
+
+Nivel de escalado que puede realizar el usuario.
+El zoom inicial que debe realizar el navegador.
+El área disponible para renderizar.
+
+<meta name="viewport" content="width=device-width, user-scalable=no,initial-scale=1.0>  
+
+width=device-width: Área disponible para renderizar, en este caso todo el ancho que tenga el viewport del dispositivo.
+user-scalable=no: El usuario no puede hacer escala.
+initial-scale=1.0: Nivel de zoom/escala Inicial.
+Esta es la definición oficial para que tu página web se adapte de forma correcta a los móviles.Esta es la definición oficial para que tu página web se adapte de forma correcta a los móviles. Así se ve una página web en un dispositivo móvil sin y con viewport
