@@ -1,1 +1,3 @@
 Adaptativos refiere a adaptarse, en este caso es la adaptacion de las imagenes a los distintos dispositivos en los cuales se mostrara.
+
+Se puede utilizar la etiqueta source con el atributo media en el cual me puede mostrar una imgen cuando se cumple una condicion, tal como min-width: 768px, en caso tal, se le puede dar un valor por defecto con etiqueta img.
