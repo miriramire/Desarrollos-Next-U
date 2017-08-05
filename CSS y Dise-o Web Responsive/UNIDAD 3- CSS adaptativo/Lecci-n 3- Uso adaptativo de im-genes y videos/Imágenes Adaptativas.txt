@@ -1,0 +1,1 @@
+Adaptativos refiere a adaptarse, en este caso es la adaptacion de las imagenes a los distintos dispositivos en los cuales se mostrara.
