@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!--<meta name="viewport" content="initial-scale=1.0, width=device, user-scalable=no">-->
+<meta name="viewport" content="initial-scale=1.0, width=500px, user-scalable=yes">
+<title>Imágenes Adaptativas</title>
+</head>
+<body>
+<h1>Imagen</h1>
+<!--
+<figure>
+	<figcaption>Pajaro de Angry Birds</figcaption>
+	<img src="img/AngryBirds.jpg" alt="Angry Birds" width="100%"/>
+</figure>
+-->
+<picture>
+	<source media="(min-width: 768px)" srcset="img/AngryBirds.jpg">
+	<source media="(min-width: 480px)" srcset="img/AngryBirds2.jpg">
+	<img src="img/AngryBirds3.jpg"/>
+</picture>
+</body>
+</html>
