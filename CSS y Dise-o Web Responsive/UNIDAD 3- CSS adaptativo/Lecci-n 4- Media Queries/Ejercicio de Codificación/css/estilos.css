@@ -1,0 +1,60 @@
+body {
+	font-family: Verdana;
+	width: 90%;
+	margin-left: 5%;
+
+}
+
+header {
+	padding: 1vh 1vw;
+	margin-bottom: 1vh;
+}
+
+#contenido{
+	margin: 1%;
+	text-align: center;
+}
+
+header h1 {
+	padding-left: 1%;
+	font-size: 1.5em;
+}
+
+footer {
+	font-size: 0.8em;
+	border-top: solid 2px #1f47a8;
+	padding-top: 1vw;
+	margin-top: 1vw;
+	text-align: center;
+}
+
+.adaptativa-porcentaje{
+	width:90%;
+}
+.adaptativa-porcentaje-1{
+	width: 70%;
+}
+.adaptativa-porcentaje-2{
+	width: 50%;
+}
+.adaptativa-porcentaje-3{
+	width: 20%;
+}
+/*Media Query*/
+@media (min-width:600px){
+	#resumen{
+		display: block;
+	}
+}
+@media (min-width:601px) and (max-width:900px){
+	*{
+		font-size: 16px;
+		color: red;
+	}
+}
+@media (min-width:901px){
+	*{
+		font-size: 14px;
+		color: black;
+	}
+}
