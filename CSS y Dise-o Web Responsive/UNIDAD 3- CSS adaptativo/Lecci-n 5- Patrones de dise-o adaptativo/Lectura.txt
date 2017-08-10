@@ -1,0 +1,7 @@
+Off Canvas es un patrón de diseño adaptativo con un concepto diferente a los patrones ya estudiados en esta lección. Los patrones más usados intentan acomodar elementos de cierta manera para que todos quepan en la pantalla o se apilen verticalmente. En tamaños de pantalla pequeños, el patrón Off Canvas sólo deja en pantalla un elemento y permite el acceso a los demás mediante gestos o botones, desplazando lateralmente el contenido actual.
+
+Este patrón se popularizó en aplicaciones móviles nativas, ya que permite una fácil navegación y una manera óptima de presentar los contenidos. Sin embargo, en páginas web es uno de los patrones que menos se utiliza, debido a su alta complejidad y dificultad en su desarrollo.
+
+Para aplicar este patrón en una página web usando CSS, se deben utilizer propiedades de transformación, animación y otras que veremos más adelante en el curso.
+
+Este patrón se popularizó en aplicaciones móviles nativas, ya que permite una fácil navegación y una manera óptima de presentar los contenidos. Sin embargo, en páginas web es uno de los patrones que menos se utiliza, debido a su alta complejidad y dificultad en su desarrollo.
