@@ -1,0 +1,26 @@
+div {
+    border: 1px solid black;
+}
+
+#contenedor {
+  margin-top: 100px;
+  margin-left: 100px;
+  width: 300px;
+  height: 300px;
+  perspective: 50px;
+}
+
+
+#transformado {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  /*
+  Se puede usar el traslate() para desplazamientos horizontales y verticales
+  Se puede desplazar tambien con traslateX() traslateY() tralateZ()
+  Para trasladar los 3 ejes, se debe utilizar el translate3d()	*/
+  transform: translate3d(-20px, 30px, 5px);
+
+}
