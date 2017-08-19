@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width:device-width,user-scalable=no">
+	<title>Transition y Propiedades</title>
+	<style media="screen">
+		#contenedor{
+			width: 1000px;
+			height: 600px;
+			border: 2px solid;
+			margin: 0 auto;
+			background-color: blue;
+			transition: background 1s;
+		}
+		/*
+		#contenedor:hover{
+			background-color: yellow;
+		}
+		*/
+		#contenedor img{
+			width: 200px;
+			height: 200px;
+			/*transition: width, 1s;*/
+			transition-property: width, height;
+			transition-duration: 2s, 4s;
+		}
+		#contenedor img:hover{
+			width: 100%;
+			height: 100%;
+		}
+	</style>
+</head>
+<body>
+	<section id="contenedor">
+		<img src="img/Star Wars.jpg" alt="Star Wars"/>
+	</section>
+</body>
+</html>
