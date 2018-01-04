@@ -1,0 +1,8 @@
+.cuadrado {
+	width: 100px;
+	height: 100px;
+	background: #03a9f4;
+	text-align: center;
+	margin: 10px;
+	display: inline-block;
+}
