@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Team APP | {% block title %} {% endblock %}</title>
+	<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="//code.ionicframework.com/ioicons/1.5.2/css/ioicons.min.css">
+	<link rel="stylesheet" type="text/css" href="/css/AdminLTE.css">
+</head>
+<body class="skin-blue">
+	<header>
+		<a href="#" class="logo">TeamApp</a>
+		<nav class="navbar navbar-static-top" role="navigation">
+			<a href="#" class="navbar-btn sidebar-toggle" data-toggle="offcanvas" role="button">
+				<span class="sr-only">Toggle Navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</a>
+			<div class="navbar-right">
+				<ul class="nav navbar-nav">
+					<li class="dropdown user user-menu">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+							<i class="glyphicon glyphicon-user"></i>
+							<span>Fulano de tal <i class="caret"></i></span>
+						</a>
+						<ul class="dropdown-menu">
+							<li class="user-header bg-light-blue">
+								<img src="img/avatar3.png" class="img-circle" alt="User Image">
+								<p>Fulano de tal - fulanito</p>
+							</li>
+							<li class="user-footer">
+								<div class="pull-right">
+									<a href="#" class="btn btn-default btn-flat">Cerrar Sesion</a>
+								</div>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<div class="wrapper row-offcanvas row-offcanvas-left">
+		<aside class="left-side sidebar-offcanvas">
+			<section class="sidebar">
+				<div class="user-panel">
+					<div class="pull-left image">
+						<img src="/img/avatar3.png" class="img-circle" alt="User Image">
+					</div>
+					<div class="pull-left info">
+						<p>Hello, Fulanito de Tal</p>
+						<a href="#"><i class="fa fa-circle text-success">Onlina</i></a>
+					</div>
+				</div>
+
+				<ul class="sidebar-menu">
+					<li class="">
+						<a ui-sref="app.dashboard">
+							<i class="fa fa-dashboard"></i><span>Dashboard</span>
+						</a>
+					</li>
+
+					<li class="">
+						<a ui-sref="app.chat">
+							<i class="fa fa-comment"></i><span>Chat</span>
+						</a>
+					</li>
+
+					<li class="">
+						<a ui-sref="app.tareas">
+							<i class="fa fa-check"></i><span>Tareas</span>
+						</a>
+					</li>
+
+					<li class="">
+						<a ui-sref="app.recursos">
+							<i class="fa fa-envelope"></i><span>Recursos</span>
+						</a>
+					</li>
+				</ul>
+			</section>
+		</aside>
+	</div>
+
+	<aside class="right-side">
+		<section class="content-header">
+			<h1>Dashboard<small>Control Panel</small></h1>
+		</section>
+
+		<section class="content">
+			
+		</section>
+	</aside>
+
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript" src="//maxcdn.bootstrapxdn.xom/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/js/AdminLTE/app.js"></script>
+	<script type="text/javascript" src="/vendor/angular/angular.js"></script>
+	<script type="text/javascript" src="/vendor/angular-ui-router/release/angular-ui-route.js"></script>
+</body>
+</html>
