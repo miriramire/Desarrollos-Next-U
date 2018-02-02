@@ -1,0 +1,28 @@
+.navbars12{
+	min-height: 4rem;
+}
+.column1{
+	min-height: 50rem;
+	width: 1px;
+}
+.colum2{
+	min-height: 25rem;
+}
+.columnpad{
+	padding: 0;
+}
+.columnpad1{
+	padding: 0.50rem;
+	margin-top: 1rem;
+}
+.cardhei7{
+	min-height: 7rem;
+}
+.cardhei17{
+	min-height: 17rem;
+	padding: 2rem;
+}
+
+.logo{
+	height: 2rem;
+}
