@@ -1,0 +1,14 @@
+.navbars12{
+	min-height: 4rem;
+}
+.column1{
+	min-height: 50rem;
+	border-style: solid;
+	border-color: #009688;
+	width: 1px;
+}
+.colum2{
+	min-height: 25rem;
+	border-style: solid;
+	border-color: #009688;
+}
