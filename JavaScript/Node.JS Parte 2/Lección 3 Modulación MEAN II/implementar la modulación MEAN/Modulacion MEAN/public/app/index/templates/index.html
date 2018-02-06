@@ -1,0 +1,20 @@
+<header class="header">
+	<a href="#" class="logo">TeamApp</a>
+	<ng-include src="'/partials/includes/navbar.html'"></ng-include>
+</header>
+
+<div class="wrapper row-offcanvas row-offcanvas-left">
+	<aside class="left-side sidebar-offcanvas">
+		<ng-include src="'/partials/includes/sidebar.html'"></ng-include>
+	</aside>
+</div>
+
+<aside class="right-side">
+	<section class="content-header">
+		<h1>Dashboard<small>Control Panel</small></h1>
+	</section>
+
+	<section class="content" ui-view>
+		
+	</section>
+</aside>
