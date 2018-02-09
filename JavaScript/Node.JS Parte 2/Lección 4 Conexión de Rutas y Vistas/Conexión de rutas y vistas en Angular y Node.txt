@@ -1,0 +1,2 @@
+Funcionamiento rutas y vistas: Dada una ruta o peticion (GET), esta es procesada en Express.js, quien renderiza una vista.
+Angular.js realiza un proceso similar solo que en este caso en NG-ROUTE el modulo de engular por defecto encargado de gestionar el enrutamiento y el enlace a vistas. Ademas de NG-TOUTE, existe otro gestor de enrutamiento desarrollado por angular UI, llamado UI-ROUTER, que nos permite extender algunas funcionalidades de NG-ROUTE
