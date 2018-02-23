@@ -1,0 +1,22 @@
+<div class="form-box" id="login-box">
+	<div class="header">Inicio de Sesion</div>
+	<form name="form" ng-submit="signin()">
+		<div class="body bg-gray">
+			<div class="form-group">
+				<input type="text" name="username" ng-model="usuario.username" class="form-control" placeholder="Nombre de usuario">
+			</div>
+			<div class="form-group">
+				<input type="password" name="password" ng-model="usuario.password" class="form-control" placeholder="password">
+			</div>
+		</div>
+		<div class="footer">
+			<button type="submit" class="btn bg-olive btn-block">Entrar</button>
+			<p>Si eres nuevo, por favor <a ui-sref="registro" class="text-center">registrate</a></p>
+		</div>
+	</form>
+	<div class="marin text-center">
+		<span>Social Login</span>
+		<br>
+		<button class="btn bg-aqua btn-circle"><i class="fa fa-twitter"></i></button>
+	</div>
+</div>
