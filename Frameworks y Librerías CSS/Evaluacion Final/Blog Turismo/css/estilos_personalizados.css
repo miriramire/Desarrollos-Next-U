@@ -1,0 +1,64 @@
+/*Base*/
+.turis-content{
+	background: url("../img/wallpaper.jpg");
+  background-attachment: scroll;
+  background-size: cover;
+  font-family: 'Permanent Marker', cursive;
+  text-align: justify;
+}
+/*Botones nav*/
+.turi-nav{
+	background: url("../img/chapoteo.jpg");
+	background-size: cover;
+}
+/*Card*/
+.turi-card{
+	background: url("../img/chapoteo-9.png");
+	background-size: cover;
+}
+.turi-card-img{
+	margin: 10px;
+	width: 150px;
+}
+.turi-profile{
+	background: url("../img/chapoteo-7.png");
+	background-size: cover;
+} 
+/*Imagenes*/
+.turi-redes{
+	width: 80px;
+}
+.turi-avatar{
+	width: 50px;
+}
+/*Modificaciones css*/
+.nav-wrapper{
+	margin-top: 20px;
+}
+/*Modificacion del DOM*/
+h5{
+	margin-top: 20px;
+}
+textarea{
+	color: black;
+}
+::placeholder {
+    color: black;
+    opacity: 1; /* Firefox */
+}
+/*Media*/
+@media (max-width: 400px){
+ul {
+    list-style-type: none;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    width: 300px;
+}
+
+li {
+    text-align: center;
+}
+}
