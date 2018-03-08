@@ -1,0 +1,76 @@
+.latin-page{
+  background: url("../img/baile.jpg");
+  background-attachment: scroll;
+  background-size: cover;
+  background-color:  #1a237e;
+  font-family: 'Yellowtail', cursive;
+  font-size: 1.8em;
+}
+/*Imagenes*/
+.latin-logo{
+  position: initial;
+  top: 20px;
+  padding-bottom: 5px;
+  width: 100px;
+  height: 60px;
+}
+.latin-avatar{
+  display: auto;
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+}
+.latin-img{
+  width: 170px;
+  height: 100px;
+  text-align: center;
+  padding: 5px;
+  display: auto;
+  top: 200px;
+}
+/*Cambios a Bootstrap*/
+.container{
+  background-color: #0d47a1;
+  border: 5px;
+  padding: 20px;
+}
+.btn-success{
+  position: relative;
+  right: 15px;
+}
+/*Redes sociales*/
+.img-social{
+  width: 25px;
+  background-color: #01579b;
+  margin-bottom: 5px;
+}
+.img-social:hover{
+  background-color: #212121;
+}
+/*Navbar*/
+.bg-white{
+  background-color: white;
+}
+
+.bg-white>ul>li>a:hover{
+  background-color: #0d47a1;
+  color: white;
+}
+/*Cards*/
+.latin-card-menu{
+  background-color:  #0d47a1;
+}
+.latin-card{
+  background-color: white;
+  border: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.latin-card-text{
+  border: 10px;
+  padding: 10px;
+  text-indent: 1.5em;
+  text-align: justify;
+}
+/*Media Querys*/
