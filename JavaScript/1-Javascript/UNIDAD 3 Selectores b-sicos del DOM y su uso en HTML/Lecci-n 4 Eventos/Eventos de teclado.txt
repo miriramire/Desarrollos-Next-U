@@ -1,0 +1,14 @@
+Los eventos se pueden clasificar en tres tipos:
+1.Eventos de teclado
+2.Eventos de "mouse"
+3.Otro tipo de eventos
+
+Funciones del listener:
+keypress - Se oprime cualquier tecla del teclado
+keydown - Se activa cuanod el usuario mantiene una tecla presionada
+keyup - Se activa cuando el usuario deja de presionar una tecla.
+
+document.onkeypress=mostrarTecla
+document.onkeydown=cambiarTituloVerde
+document.onkeyup=cambiarTituloNegro
+document.querySelector("#tarjeta_presiona_input_text #tecla_texto").onkeypress = teclaTextBox;

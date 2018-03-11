@@ -1,0 +1,169 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Poiret One', cursive;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+input[type="text"]{
+  width: 50%;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.boton-check{
+  cursor: pointer;
+}
+.modal-content {
+    background-color: #4d62d0;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    color: #fff;
+}
+.modal-content h3{
+  width: 98%;
+}
+.modal-content p{
+  width: 20%;
+}
+.close {
+    color: #aaa;
+    width: 2%;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.container{
+  display: flex;
+  flex-flow: row wrap;
+}
+.top-row{
+  width: 100%;
+  height: 7rem;
+  background: #76f5a3;
+  display: flex;
+  justify-content: space-between;
+}
+.main-row{
+  width: 100%;
+  height: 33rem;
+  background-color: #ccffe3;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+.bottom-row{
+  width: 100%;
+  height: 10rem;
+  background-color: #0e1954;
+  padding: 1rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.container-botones{
+  width: 30%;
+  padding: 1rem;
+  display: flex;
+  flex-flow: row nowrap;
+}
+[class^='boton-']{
+  height: 80%;
+  margin-right: 0.5rem;
+  border-radius: 3rem;
+  padding: 1rem;
+  text-align: center;
+}
+.boton-accion{
+  background-color: #149c5f;
+  cursor: pointer;
+}
+.boton-speaker{
+  background-color: #149c5f;
+}
+.boton-accion img{
+  background-color: inherit;
+}
+.boton-next{
+  background-color: #40805d;
+  width: 5%;
+  cursor: pointer;
+}
+.boton-next img{
+  margin-top: 1rem;
+  background-color: inherit;
+}
+.contenido-container{
+  width: 80%;
+  border-bottom: 0.5rem solid #0e1954;
+  display: flex;
+  flex-flow: row nowrap;
+}
+[class^='item-']{
+  border-top: 0.2rem solid #0e1954;
+  border-left: 2px solid #0e1954;
+  height: 100%;
+  text-align: center;
+}
+[class^='item-'] h1{
+  color: #0e1954;
+  margin-top: 7rem;
+  background-color: inherit;
+}
+.item-1, .item-3{
+  width: 4%;
+  background-color: #4d62d0;
+}
+.item-3{
+  border-right: 2px solid #0e1954;
+}
+.item-2{
+  width: 92%;
+  background-color: #fff;
+}
+.container-titulo{
+  margin-left: 1rem;
+  color: #0e1954;
+}
+.container-saludo{
+  color: #0e1954;
+}
+.container-titulo h1{
+  font-size: 3rem;
+}
+.item-1 h1, .item-3 h1{
+  display: none;
+}
+label > input{
+  visibility: hidden;
+  position: absolute;
+}
+label > input + #speaker{
+  cursor:pointer;
+}
+label > input:checked + #speaker{
+  background-color: #888;
+}
+
+.audio{
+  width: auto;
+}

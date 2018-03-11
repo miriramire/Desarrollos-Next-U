@@ -1,0 +1,1 @@
+document.getElementById('activar_rb').onchange = cambiarRadioButtons
