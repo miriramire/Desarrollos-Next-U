@@ -1,0 +1,4 @@
+document.getElementById('astronauta').onclick = cambioFotoAstronauta;
+document.getElementById('extraterrestre').ondblclick = cambioFotoExtraterrestre;
+document.getElementById('planetas').onmouseover = cambioFotoPlanetas;
+document.getElementById('nave_espacial').onmouseout = cambioFotoNave;
