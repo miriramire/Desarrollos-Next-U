@@ -1,0 +1,6 @@
+var tarjetas = document.getElementsByClassName('card');
+tarjetas[0].style.order = "4";
+tarjetas[3].style.order = "1";
+//Cambiando el orden en el que aparecen las tarjetas
+document.getElementById('contenedor_tarjetas').style.flexFlow='row-reverse nowrap';
+document.getElementById('contenedor_tarjetas').style.flexFlow='column nowrap';

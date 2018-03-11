@@ -1,0 +1,10 @@
+var titulos = document.getElementsByClassName('card-title')
+//Cambiando el estilo de los textos
+titulos[0].style.textTransform = "uppercase";
+titulos[1].style.textTransform = "lowercase";
+titulos[2].style.textTransform = "capitalize";
+//Seleccionaramos todas las etiquetas p
+var parrafos = document.getElementsByTagName('p');
+parrafos[0].style.fontFamily = "cursive";
+parrafos[1].style.fontFamily = "fantasy";
+parrafos[2].style.fontFamily = "monospace";
