@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css" media="screen">
+    <title>Tablero</title>
+
+  </head>
+  <body>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <h3>Antes de empezar...</h3>
+        <span class="close"><img src="img/x-mark.png"/></span>
+
+        <p>¿Cómo te llamas?</p>
+        <input type="text" name="nombre">
+        <div class="boton-check">
+          <img src="img/check-mark.png" />
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container">
+      <div class="top-row">
+        <div class="container-titulo">
+          <h1>Aprende fácil</h1>
+        </div>
+        <div class="container-botones">
+          <div class="boton-accion" id="home">
+            <img src="img/home.png" alt="Home"/>
+          </div>
+          <label for="speaker-radio">
+            <input type="radio" name="audio" value="speaker" id="speaker-radio">
+            <div class="boton-speaker audio" id="speaker">
+              <img src="img/speaker.png" alt="Home"/>
+            </div>
+          </label>
+          <div class="boton-accion" id="increase-font">
+            <img src="img/increase-font.png" alt="Home"/>
+          </div>
+          <div class="boton-accion" id="decrease-font">
+            <img src="img/decrease-font.png" alt="Home"/>
+          </div>
+        </div>
+      </div>
+      <div class="main-row">
+        <div class="contenido-container">
+          <div class="item-1">
+            <h1>Contenido 1</h1>
+          </div>
+          <div class="item-2">
+            <h1>Contenido 2</h1>
+          </div>
+          <div class="item-3">
+            <h1>Contenido 3</h1>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-row">
+        <div class="boton-next">
+          <img src="img/arrow-left.png" alt="volver" id="volver"/>
+        </div>
+        <div class="boton-next">
+          <img src="img/arrow-right.png" alt="avanzar" id="avanzar"/>
+        </div>
+      </div>
+
+    </div>
+    <script src="js/modal.js" charset="utf-8"></script>
+    <script src="js/index.js" charset="utf-8"></script>
+  </body>
+</html>
