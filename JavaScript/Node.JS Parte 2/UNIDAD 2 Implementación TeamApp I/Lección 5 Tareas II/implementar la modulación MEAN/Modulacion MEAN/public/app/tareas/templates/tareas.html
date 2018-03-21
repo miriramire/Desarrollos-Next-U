@@ -1,0 +1,61 @@
+<div class="row">
+	<div class="col-md-12">
+		<div class="boox box-primary">
+			<div class="box-header">
+				<i class="ion ion-clipboard"></i>
+				<h3 class="box-title">To Do List</h3>
+			</div>
+			<div class="box-body">
+				<form>
+					<div class="fomr-group">
+						<div class="col-xs-3">
+							<input type="text" name="descripcion" class="form-control" placeholder="Descripcion">
+						</div>
+						<div class="col-xs-3">
+							<button type="submit" class="btn btn-primary pull-left"><i class="fa fa-check"></i>Enviar</button>
+						</div>
+					</div>
+				</form>
+				<br>
+				<br>
+				<ul class="todo-list" style="overflow: auto; height: 200px">
+					<li>
+						<input type="checkbox" name="">
+						<span class="text">Tarea 1</span>
+					</li>
+				</ul>
+			</div>
+			<div class="box-footer clearflix no-border">
+				<button class="btn btn-primary pull-right">Guardar</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!--Correcciones leccion 5-->
+<div class="box">
+	<div class="box-header">
+		<h3 class="box-title">Historial de Tareas Finalizadas</h3>
+	</div>
+	<div class="box-body no-padding">
+		<div class="callout callout-danger" ng-slow="!tareas_finalizadas.length">
+			<h4>Aun no ha finalizado las Tareas!</h4>
+			<p>Aqui mostraremos tu historial de tareas finalizadas</p>
+		</div>
+		<table class="table table-condensed" ng-hide="!tareas_finalizadas.length">
+			<tbody>
+				<tr>
+					<th>Descripcion</th>
+					<th>fecha</th>
+					<th style="width: 40px">Estado</th>
+				</tr>
+				<tr ng-repeat="finalizada in tareas_finalizadas">
+					<td>{{finalizada.descripcion}}</td>
+					<td>{{finalizada.finalizada.fecha | date: 'yyyy-MM-dd'}}</td>
+					<td>
+						<span class="badge br-green">Finalizada</span>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
