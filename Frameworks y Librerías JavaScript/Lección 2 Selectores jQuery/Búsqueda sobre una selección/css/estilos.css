@@ -1,0 +1,58 @@
+body {
+  font-size: 3em;
+  font-family: helvetica;
+}
+div [class*="bloque"]{
+  min-height: 160px;
+  flex: 1 2 20%;
+  margin: 2px 2px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.bloque1 {
+  background-color: #FF0000;
+  order: 1;
+
+
+}
+.bloque2 {
+  background-color: #00FF99;
+  order: 2;
+
+
+}
+.bloque3 {
+  background-color: #00FFFF;
+  order: 3;
+
+
+}
+.bloque4 {
+  background-color: #FFFF00;
+  order: 4;
+
+
+}
+.bloque5 {
+  background-color: #d333d3;
+  order: 5;
+
+}
+.bloque6 {
+  background-color: #0Fd000;
+  order: 6;
+
+}
+.bloque7 {
+  background-color: #0000F0;
+  order: 7;
+
+}
+
+.contenedor{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+}
