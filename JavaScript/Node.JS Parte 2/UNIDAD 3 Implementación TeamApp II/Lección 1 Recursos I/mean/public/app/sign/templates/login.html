@@ -1,0 +1,25 @@
+<div class="form-box" id="login-box">
+    <div class="header">Inicio de sesión</div>
+    <form name="form" ng-submit="signin()">
+        <div class="body bg-gray">
+            <div class="form-group">
+                <input type="text" name="username" ng-model="usuario.username" class="form-control" placeholder="Nombre de usuario"/>
+            </div>
+            <div class="form-group">
+                <input type="password" name="password"  ng-model="usuario.password" class="form-control" placeholder="Password"/>
+            </div>
+        </div>
+        <div class="footer">
+            <button type="submit" class="btn bg-olive btn-block">Entrar</button>
+
+            <p>Si eres nuevo, porfavor <a ui-sref="register" class="text-center">regístrate</a></p>
+        </div>
+    </form>
+
+    <div class="margin text-center">
+        <span>Social Login</span>
+        <br/>
+        <a href="/auth/twitter" target="_self" class="btn bg-aqua btn-circle"><i class="fa fa-twitter"></i></a>
+
+    </div>
+</div>
