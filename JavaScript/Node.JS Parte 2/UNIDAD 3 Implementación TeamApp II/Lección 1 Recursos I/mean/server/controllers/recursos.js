@@ -1,4 +1,4 @@
-var Recurso = require('../models/recurso');
+var Recurso = require('../models/recursos');
 var ObjectId = require('mongoose').Types.ObjectId;
 
 var fs = require('fs');
