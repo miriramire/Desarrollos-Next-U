@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,user-scalable=no">
+  <title>Modificaciones</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <div class="contenedor">
+
+
+    <!-- Contenedor del banner del título -->
+    <div class="titulo">
+      <h1>Juego de Cartas</h1>
+    </div>
+    <!-- Fin contenedor del banner del título -->
+
+    <!-- Contenedor tablero, imágen de la mesa -->
+    <div class="tablero">
+
+      <!-- Inicio columna botones + y - -->
+      <div class="col-botones">
+        <button id="mas" class="boton"><img src="image/add.png"/></button>
+        <button id="menos" class="boton"><img src="image/minus.png"/></button>
+      </div>
+      <!-- Fin columna botones + y - -->
+
+      <!-- Inicio columna cartas -->
+      <div class="col-cartas">
+        <div class="zona-juego">
+          <img src="image/back.jpg" class="carta"/> <!-- Carta por defecto -->
+        </div>
+      </div>
+      <!-- Fin columna cartas -->
+
+
+      <!-- Inicio columna score -->
+      <div class="col-score">
+        <h3 class="titulo-carta">Carta:</h3>
+        <div class="pantalla">
+          <p id="contenido-pantalla"> <!-- Elemento donde se muestra el texto -->
+          </p>
+        </div>
+      </div>
+      <!-- Fin columna score -->
+
+    </div>
+    <!-- Fin Contenedor tablero, imágen de la mesa -->
+
+  </div>
+
+  <script src="js/jquery-3.0.0.js" type="text/javascript"></script>
+  <script src="js/app.js" type="text/javascript"></script>
+</body>
+</html>
