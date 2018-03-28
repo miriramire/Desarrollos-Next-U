@@ -1,0 +1,89 @@
+body {
+  font-size: 1.4em;
+  font-family: helvetica;
+  box-sizing: border-box;
+}
+.bloque{
+  min-height: 160px;
+  flex: 1 2 80%;
+}
+.logo{
+  min-height: 160px;
+  flex: 1 2 20%;
+  text-align: center;
+}
+.texto{
+  flex: 2 2 49%;
+  text-align: justify;
+  display: flex;
+  flex-wrap: wrap;
+}
+.botones{
+  flex: 2 2 50%;
+  text-align: center;
+}
+.col-derecha{
+  flex: 1 1 47%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.contenedor{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+}
+img{
+  margin-top: 10px;
+  max-height: 100px;
+}
+
+
+button{
+  color: white;
+  background: #008CB8;
+  border-radius: 5px;
+  min-width: 150px;
+  min-height: 50px;
+  font-size: 1em;
+  margin-bottom: 25px;
+
+}
+
+.rojo{
+  background: red;
+}
+.azul{
+  background: blue;
+}
+.verde{
+  background: green;
+}
+.negro{
+  background: black;
+}
+.morado{
+  background: purple;
+}
+.cafe{
+  background: brown;
+}
+.amarillo{
+  background: yellow;
+  color: black !important;
+}
+
+.circulo{
+  min-width: 10px;
+  min-height: 70px;
+  border-radius: 40px;
+  text-align: center;
+  color: white;
+  flex: 1 1 10%;
+}
+
+.tituloColores{
+  flex: 1 1 100%;
+}

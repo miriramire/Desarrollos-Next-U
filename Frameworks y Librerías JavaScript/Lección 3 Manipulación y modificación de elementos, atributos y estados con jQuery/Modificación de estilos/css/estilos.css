@@ -1,0 +1,54 @@
+body {
+  font-size: 1.8em;
+  font-family: helvetica;
+  background: linear-gradient(to right, #85FFF7 , #BEFFF7);
+  box-sizing: border-box;
+}
+.bloque{
+  min-height: 160px;
+  flex: 1 2 80%;
+}
+.logo{
+  min-height: 160px;
+  flex: 1 2 20%;
+  text-align: center;
+}
+
+.cuadro{
+  flex: 2 2 30%;
+  min-height: 100px;
+}
+.texto{
+  flex: 2 2 47%;
+  text-align: justify;
+}
+.espacio{
+  flex: 2 2 5%;
+}
+
+.contenedor{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.azul-claro{
+  background: #008CB8;
+}
+.azul{
+  background: #103169;
+}
+.verde{
+  background: #5BE85B;
+}
+img{
+  margin-top: 30px;
+}
+span{
+  color: #008CB8;
+  float: right;
+}
+.alineado{
+  text-align: left;
+}
