@@ -1,0 +1,5 @@
+AJAX
+Asynchronous Javascript and XML
+Permite tener paginas mas dinamicas,
+En 2005 nace AJAX, hace comunicacion con el servidor via http.
+En AJAX se encuentra: HTML+CSS, XML, JSON, XMLHttpRequest y JS

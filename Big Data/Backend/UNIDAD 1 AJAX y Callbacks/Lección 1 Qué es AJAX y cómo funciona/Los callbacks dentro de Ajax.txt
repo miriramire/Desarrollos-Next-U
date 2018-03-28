@@ -1,0 +1,11 @@
+La importancia de los callbacks en AJAX
+En cursos anteriores aprendimos qué son los callbacks y cómo estos nos hacen la vida más fácil a la hora de programar usando el lenguaje JavaScript. 
+Aunque en Javascript lo más común es utilizar librerías o paquetes de terceros para realizar la técnica AJAX, en este curso vamos aprender a hacerlo de las dos maneras, usando Javascript puro y luego usando librerías como jQuery. Los estados por los que pasa una petición XMLHttpRequest (Javascript puro) son los siguientes:
+
+1. Petición no inicializada
+2. Conexión establecida con el servidor
+3. Petición recibida por el servidor
+4. La petición está siendo procesada
+5. La petición finalizó y la respuesta está lista
+
+Con Javascript puro es fácil detectar el estado por el que está pasando la petición pero cuando estamos usando librerías como jQuery lo único que podemos hacer para controlar el tiempo en el que la petición esta lista es usando un callback, por eso para continuar con las unidades siguientes debes tener claro este concepto.
