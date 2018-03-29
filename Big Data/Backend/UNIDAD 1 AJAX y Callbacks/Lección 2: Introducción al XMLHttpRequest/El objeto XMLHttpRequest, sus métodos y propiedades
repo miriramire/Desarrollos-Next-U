@@ -1,0 +1,5 @@
+En esta ocasión veremos cómo está compuesto este objeto y cuáles son los métodos y propiedades que se encargan de realizar la funcionalidad. 
+
+Si abrimos una consola en el navegador, escribimos XMLHttpRequest y pulsamos Enter, podremos ver que es una función que corresponde a código nativo JavaScript: 
+
+Para poder ver su contenido, los métodos y las propiedades, es necesario instanciar un nuevo objeto a partir de esta función, el cual heredará todos su contenido. Esto lo hacemos de la siguiente manera:

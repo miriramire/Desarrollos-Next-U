@@ -1,0 +1,78 @@
+@import 'https://fonts.googleapis.com/css?family=Josefin+Sans';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  padding-top: 0.2rem;
+  z-index: 2;
+}
+
+.search {
+  width: 100%;
+  text-align: center;
+}
+
+.search input{
+  width: 80%;
+  height: 2.5em;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.search input[placeholder], [placeholder], *[placeholder] {
+  text-align: center;
+  font-size: 1.6em;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.avatar {
+  width: 100%;
+  height: 25em;
+  margin-top: 2em;
+}
+
+.avatar figure {
+  width: 25%;
+  height: 85%;
+  margin: 0 auto;
+  border: 2px solid #ddd;
+  border-radius: 50%;
+}
+
+.avatar figure > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.description {
+  display: flex;
+  flex-flow: row wrap;
+  width: 36%;
+  margin: 0 auto;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 1rem;
+}
+.description h3, .description span{
+  width: 50%;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 100;
+  font-size: 1.3rem;
+  color: #ddd;
+  margin-top: 1rem;
+  border-top: 1px solid #ddd;
+  padding: 0.3rem;
+}
+.background{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  margin-top: -12rem;
+  z-index: -2;
+}
