@@ -1,0 +1,15 @@
+Recordemos las tecnologías que hacen parte de AJAX
+					AJAX
+XMLHttpRequest									DOM
+XML	JSON								CSS		html
+
+Ventajas
+*Minimiza el número de transferencias de datos entre cliente y servidor.
+*Optimiza los recursos y el tiempo de las operaciones.
+*Mejora la experiencia de usuario al permitir traer datos desde el servidor, sin recargar la página.
+*Puede ser usado en cualquier navegador web que tenga activo JavaScript.
+
+Desventajas
+*Utilizar AJAX para todo, incluidos formularios recuperación de contraseña.
+*Los tiempos de respuesta del servidor pueden ser cruciales en determinadas peticiones que manejan grandes volúmenes de datos.
+*Es necesario tener conocimiento sobre todas las tecnologías que hacen parte de AJAX para lograr usarlo de una manera correcta.
