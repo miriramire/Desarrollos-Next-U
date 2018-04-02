@@ -1,0 +1,19 @@
+<div class="form-box" id="login-box">
+    <div class="header">Registro de usuarios</div>
+    <form ng-submit="register()">
+        <div class="body bg-gray">
+            <div class="form-group">
+                <input type="text" name="nombre" ng-model="usuario.nombre" class="form-control" placeholder="Nombre Completo"/>
+            </div>
+             <div class="form-group">
+                <input type="text" name="nombre_usuario" ng-model="usuario.nombre_usuario" class="form-control" placeholder="Nombre de usuario"/>
+            </div>
+            <div class="form-group">
+                <input type="password" name="password" ng-model="usuario.password" class="form-control" placeholder="Password"/>
+            </div>
+        </div>
+        <div class="footer">
+            <button type="submit" ng-disabled="enviando" class="btn bg-olive btn-block">Registrar</button>
+        </div>
+    </form>
+</div>

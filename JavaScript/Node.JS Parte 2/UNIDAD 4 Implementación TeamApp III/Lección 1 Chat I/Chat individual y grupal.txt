@@ -1,0 +1,1 @@
+Inicializaremos la creacion de un chat utilizando socket IO, para que los usuarios se puedan comunicar individualmente y de forma general
