@@ -1,0 +1,1 @@
+*Implementaremos la funcionalidad de enviar mensajes sin filtro de envio
