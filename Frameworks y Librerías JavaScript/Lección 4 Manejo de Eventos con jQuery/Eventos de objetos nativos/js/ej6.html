@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,user-scalable=no">
+  <title>Busquedas</title>
+  <link rel="stylesheet" href="css/estilos.css">
+  <script src="js/jquery-3.0.0.js" type="text/javascript"></script>
+
+  <script>
+  $( document ).ready(function() {
+
+    $(".logo").click(function(){
+      var tipoFont = $("body").css(["font-family","font-size","box-sizing"]);
+      $.each(tipoFont, function(tipo,value){
+        window.alert(tipo + ":" + value);
+      });
+    });
+
+    $(":header, p, span").hover(function(){
+      $(this).css("color","yellow");
+
+    });
+
+    $(".cuadro").click(function(){
+      $(this).css("height", function(index, value){
+        return parseFloat(value)*1.2;
+      });
+    });
+
+    $(".cuadro.azul").hover(function(){
+      $(this).removeClass("azul");
+      $(this).addClass("verde");
+    });
+
+
+  });
+
+  </script>
+
+
+
+</head>
+<body>
+  <div class="contenedor">
+
+    <div class="bloque">
+      <h1>jQuery</h1>
+      <h4>Modificación de estilos</h4>
+    </div>
+    <div class="logo">
+      <img src="image/jQuery.gif" alt="jQuery" width="45%"/>
+    </div>
+
+    <div class="cuadro azul">
+
+    </div>
+    <div class="cuadro azul-claro">
+
+    </div>
+    <div class="cuadro verde">
+
+    </div>
+
+    <div class="texto">
+
+      <h2>Araucaria</h2>
+
+      <p>
+        Todo el invierno, toda la batalla,
+        todos los nidos del mojado hierro,
+        en tu firmeza atravesada de aire,
+        en tu ciudad silvestre se levantan.
+      </p>
+      <p>
+        La cárcel renegada de las piedras,
+        los hilos sumergidos de la espina,
+        hacen de tu alambrada cabellera
+        un pabellón de sombras minerales.
+      </p>
+
+
+    </div>
+    <div class="espacio">
+
+    </div>
+    <div class="texto">
+      <p>
+        Llanto erizado, eternidad del agua,
+        monte de escamas, rayo de herraduras,
+        tu atormentada casa se construye
+        con pétalos de pura geología.
+      </p>
+      <p>
+        El alto invierno besa tu armadura
+        y te cubre de labios destruidos:
+        la primavera de violento aroma
+        rompe su sed en tu implacable estatua:
+        y el grave otoño espera inútilmente
+        derramar oro en tu estatura verde.
+      </p>
+      <p>
+        <span>Pablo Neruda</span>
+      </p>
+    </div>
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+</body>
+</html>
