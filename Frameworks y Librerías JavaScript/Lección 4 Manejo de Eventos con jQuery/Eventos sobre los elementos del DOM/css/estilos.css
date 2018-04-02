@@ -1,0 +1,12 @@
+.bloque{
+  min-height: 100px;
+}
+
+
+.escondido{
+  display: none;
+  position: absolute;
+  left: 40%;
+  top: 10%;
+  z-index: 1;
+}
