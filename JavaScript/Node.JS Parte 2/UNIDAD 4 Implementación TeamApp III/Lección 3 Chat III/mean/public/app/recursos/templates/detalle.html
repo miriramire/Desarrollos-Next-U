@@ -1,0 +1,24 @@
+<div class="box-body chat" id="chat-box" style="overflow: auto; width: auto; height: 250px;">
+                                    
+    <div class="item">
+        <img src="img/avatar.png" alt="user image" class="online">
+        <p class="message">
+            <a href="#" class="name">
+                <small class="text-muted pull-right"><i class="fa fa-clock-o"></i> 2:15</small>
+               {{recurso.remitente.nombre}}
+            </a>
+            {{recurso.asunto}}
+        </p>
+
+
+        <div class="attachment">
+            <h4>Archivos Adjuntos</h4>
+            <p class="filename" ng-repeat="archivo in recurso.archivos">
+                <a target="_self" href="/public/recursos/{{archivo}}" download="{{archivo}}">{{archivo}}</a>
+            </p>
+        </div>
+
+
+    </div>
+    
+</div>

@@ -1,0 +1,1 @@
+*Implementaremos la funcionalidad de envio de mensajes individual y general
