@@ -1,0 +1,31 @@
+<div class="row">
+	<div class="col-md-12">
+		<ul class="timeline">
+			<li class="time-label">
+				<span class="bg-red">
+					{{today | date:'dd MMM yyyy'}}
+				</span>
+			</li>
+			
+			<li ng-repeat="item in timeline" >
+				<i class="fa bg-blue" ng-class="{'fa-check' : item.tipo == 'tarea', 'fa-envelope' : item.tipo == 'recurso'}"></i>
+				<div class="timeline-item"  ng-show="item.tipo == 'tarea'">
+					<h3 class="timeline-header"><a href="javascript:void(0);">{{item.usuario.nombre}}</a> {{item.accion}}</h3>
+					<div class="timeline-body">
+						{{item.descripcion}}
+					</div>
+				</div>
+
+				<div class="timeline-item" ng-show="item.tipo == 'recurso'">
+					<h3 class="timeline-header"><a href="javascript:void(0);">{{item.recurso.remitente.nombre}}</a> {{item.accion}} con {{item.recurso.destinatarios.join(',')}}</h3>
+					<div class="timeline-body">
+						{{item.descripcion}}
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>
+
+
+
