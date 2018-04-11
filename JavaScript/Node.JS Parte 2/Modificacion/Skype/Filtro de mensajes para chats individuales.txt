@@ -1,0 +1,2 @@
+*Mejoraremos el servicio de Chat, e implementaremos el filtro de mensajes para los Chats individuales.
+*Finalizaremos nuestra applicacion

@@ -1,0 +1,14 @@
+<div class="table-responsive">
+    <table class="table table-mailbox">
+        <tr ng-show="!enviados.length">
+    		<td> No has enviado ningún recurso aún.</td>
+    	</tr>
+        <tr ng-repeat="recurso in enviados" class="unread" ui-sref="app.recursos.detalle({ id_recurso : '{{recurso._id.toString()}}' })">
+            <!--td class="small-col"><input type="checkbox" /></td-->
+            <!--td class="small-col"><i class="fa fa-star"></i></td-->
+            <td class="name">{{recurso.remitente.nombre}}</td>
+            <td class="subject">{{recurso.asunto}}</td>
+            <td class="time">12:30 PM</td>
+        </tr>
+    </table>
+</div>
