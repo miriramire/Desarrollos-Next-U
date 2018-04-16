@@ -1,0 +1,14 @@
+Todas las redes deben tener una direccion MAC. Lo que nos da una direccion origen y destino.
+Se utiliza para llegar a la computadora correta.
+Las mac son de 48 Bits
+{     24bits      }{      24bits      }
+{ OEM(Fabricante original del equipo) }{  Id Unico  }
+{     OUI         }{      Vendor Assigned     }(Cisco)
+
+Al final de la trama esta el CRC(verificación por redundancia cíclica)
+CRC se utiliza para verificar que los datos llegaron en perfectas condiciones
+FCS (Cisco) Se utiliza para saber que el paquete fue transmitido sin corrupcion
+-------------------------------------------------------------
+Comandos windows:
+ipconfig
+ipconfig /all
