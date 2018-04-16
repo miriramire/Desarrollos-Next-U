@@ -1,0 +1,7 @@
+Broadcast vs Unicast
+El equipo envia la trama con la direccion Mac de Origen y destino a todos los equipo en el segmento de red. Los demas equipos comparan la Mac destino con su propia mac para identificar si la trama es para ellos. Si no es, la eliminan. Y si es pasan al proceso de desencapsulacion.
+Broadcast:Comunicacion  en donde la trama es enviada a de un host a todas las direcciones. Solo hay un equipo que envia, pero la informacion es para todos los equipos en el mismo segmento de red. (FF:FF:FF:FF:FF:FF) 
+Unicast: Comunicacion  en donde la trama es enviada a de un host y es direccionada a una destino especifico. Solo hay un equipo que envia y otro que recibe. 
+
+Dominio de Broadcast:
+Grupo de computadoras que pueden escuchar sus broadcast, estaran en un mismo dominio de este.
