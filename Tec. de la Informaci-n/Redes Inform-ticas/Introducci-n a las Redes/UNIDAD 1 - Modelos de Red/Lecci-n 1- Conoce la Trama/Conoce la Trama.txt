@@ -1,0 +1,6 @@
+HUB: Interfaz de coneccion de equipos y compartir recursos
+
+Application   ----  Data      ----  Application
+Transport     ----  Segment   ----  Transport
+Internet      ----  Packet    ----  Internet
+Link          ----  Frame     ----  Link
