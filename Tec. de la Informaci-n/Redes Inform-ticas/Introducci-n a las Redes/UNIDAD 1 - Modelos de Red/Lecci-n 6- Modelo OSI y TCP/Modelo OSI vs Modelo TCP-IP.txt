@@ -1,0 +1,14 @@
+Modelo OSI
+7 Aplicacion: Inteligencia en las apps
+6 Presentacion: Converitir los datos a una forma que pueda ser interpretada por la aplicacion
+5 Sesion: Conexion entre dos sistemas
+4 Transporte: Segmenta los datos, asegura que lleguen en correcto orden.
+3 Red: Direccionamiento logico (IP) -Routers
+2 Enlace de datos: Direccion MAC
+1 Fisica : Cables, energia, hardware
+
+Modelo TCP/IP
+4 Aplicacion: Conexion entre dos sistemas, Converitir los datos a una forma que pueda ser interpretada por la aplicacion, applicacion
+3 Transporte: Se asegura de que los datos lleguen, ademas se encarga de la segmentacion de los paquetes.
+2 Internet: Direccionamiento logico (IP) -Routers
+1 Interfaz de red: Direccion MAC, Cables, energia, hardware
