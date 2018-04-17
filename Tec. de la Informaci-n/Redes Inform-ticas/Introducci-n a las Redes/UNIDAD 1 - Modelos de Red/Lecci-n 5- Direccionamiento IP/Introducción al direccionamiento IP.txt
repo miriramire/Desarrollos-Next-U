@@ -1,0 +1,4 @@
+Identificar una red.
+El router permite la conexion a las diferentes redes. Para seto envian la informacion al Default Gateway.
+Las tramas contienen en sus encabezados al IP origen y destino.
+En las tablas de enrutamiento encontramos el puerto por donde debe salir la trama
