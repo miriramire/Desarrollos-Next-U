@@ -1,0 +1,9 @@
+Los numero de puertos son exclusivos de las aplicaciones. Y cada puerto identifica el puerto de envio. Los primeros 1024 numeros de puertos son los que identificamos como conocidos, son puertos reservados. Se pueden utilizar hasta 65536 numeros de puertos.
+EJ. 
+Puerto 80 - Servidor Web
+Puertos 20 y 21 - FTP
+
+TCP (Protocolo de control de transmision): Comunicacion orientada a la conexion, se asegura de que los datos llegan completos y en orden.
+TCP envia el numero de secuencia que identifica el orden del paquete. TCP reconoce si los datos llegaron completos.
+
+UDP (Protocolo de datagramas de usuario): Comunicacion no orientada a la conexion. Este envia los datos y solo espera a que el otro equipo este preparado.
