@@ -1,0 +1,3 @@
+Los modelos son representaciones de la forma y funcion de lo verdadero.
+En redes esta:
+Modelo OSI y el modelo TCP/IP
