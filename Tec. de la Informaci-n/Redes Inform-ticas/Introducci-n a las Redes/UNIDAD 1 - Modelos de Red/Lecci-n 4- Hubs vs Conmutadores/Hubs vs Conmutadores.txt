@@ -1,0 +1,2 @@
+Hubs: Es un repetidor
+Conmutadores: Seguimiento a las direcciones MAC, que estan guardadas.
