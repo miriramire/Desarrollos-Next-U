@@ -1,0 +1,22 @@
+Modelo OSI
+7 Aplicacion: Inteligencia en las apps
+6 Presentacion: Converitir los datos a una forma que pueda ser interpretada por la aplicacion
+5 Sesion: Realiza la conexion de los sistemas
+4 Transporte: Ensambla los datos. Segmenta los envios.
+3 Red: Verifica IP, guarda IPs.
+2 Enlace de datos: Verifica MAC y CRC. Guarda las MAC
+1 Fisica : Enviar la señal
+
+Modelo TCP/IP
+4 Aplicacion: Conexion entre dos sistemas, Converitir los datos a una forma que pueda ser interpretada por la aplicacion, applicacion
+3 Transporte: Ensambla los datos. Segmenta los envios.
+2 Internet: Verifica IP, guarda IPs.
+1 Interfaz de red: Enviar la señal, Verifica MAC y CRC. Guarda las MAC
+
+
+|App          --- Data  ---          App|
+|Transport    ---Segment---    Transport|
+|Internet     ---Packet ---     Internet|
+|Link         ---Frame  ---         Link|
+-----------------------------------------
+Durante la comunicacion peer-to-peer, los protocolos se comunican con su igual. Esta informacion es llamada PDUs.
