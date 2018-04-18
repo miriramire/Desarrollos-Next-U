@@ -1,0 +1,4 @@
+RFI/EMI/ESD
+RFI(Interferencia de radiofrecuencia): Interferencia que se produce con otras frecuencias.
+EMI(Interferencia electromagnetica): Cargas magneticas donde no deberias estar.
+ESD(Descarga electromagnetica): Transferencia electromagnetica mayor al nivel soportado.
