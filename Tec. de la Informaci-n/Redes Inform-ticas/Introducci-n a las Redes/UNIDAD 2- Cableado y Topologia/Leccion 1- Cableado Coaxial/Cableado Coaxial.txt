@@ -1,0 +1,7 @@
+Conductor, aislante, malla, encauchetado.
+Cable RG8, Grado de radio(RG).
+Se miden por impedancia, en Ohmios. 50 Ohmios - 75 Ohmios
+Conectores:
+BNC.
+En T
+F ó FC (RG6)- cbale de modems
