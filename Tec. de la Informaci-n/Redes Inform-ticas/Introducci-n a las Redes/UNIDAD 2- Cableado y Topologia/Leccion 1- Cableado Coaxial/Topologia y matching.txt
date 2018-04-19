@@ -1,0 +1,17 @@
+<h1>TOPOLOGÍAS DE RED</h1>
+La topología de red está definida como la estructura de una red para realizar el intercambio de información o datos, dicha estructura puede darse de forma física o lógica. Para el CompTIA Network + debes conocer y dominar cinco de estas estructuras y sus respectivas características. 
+
+<h3>Anillo</h3>
+Dentro de una red en anillo cada estación de trabajo tendrá una única conexión de entrada y otra de salida del anillo. Adicionalmente, dentro de cada estación habrá un receptor y un transmisor que se encarga de pasar la señal a la siguiente estación. Es por este motivo que la transmisión de datos se ejecuta de forma lenta, en comparación a otras topologías. 
+
+<h3>Bus</h3>
+Dentro de una red en bus la característica más representativa es la existencia de un único canal de comunicaciones, al cual se conectan los diferentes dispositivos. De esta forma todos los dispositivos comparten el mismo canal para comunicarse entre sí. Esta red cuenta con limitaciones en números de estaciones de trabajo permitidas, pero es comúnmente usada por su facilidad de implementación.
+
+<h3>Estrella</h3>
+Dentro de una red en estrella todas las estaciones de trabajo están conectadas directamente a un punto central. Por esta estructura todas las comunicaciones se realizan a través de ese punto central, el cual puede ser un conmutador, un repetidor o un concentrador. Debido a esto los dispositivos no están directamente conectados entre sí, por lo que él tráfico de información además de es muy elevado. 
+
+<h3>Híbrido</h3>
+Dentro de una red hibrida normalmente se encontrará una unión de varios tipos de topologías de red. Este tipo es usado cuando se necesita establecer una estructura particular de un grupo de estaciones de trabajo, o debido a un número elevado de estaciones participantes en la red. 
+
+<h3>Malla</h3>
+Dentro de una red en malla cada estación de trabajo está conectada a todas las estaciones de trabajo. Por este motivo existe la posibilidad de transmitir información de una estación a otra usando diferentes rutas. De igual forma debido a que la red tiene esta interconexión, se elimina la posibilidad de que exista alguna interrupción en la comunicación.
