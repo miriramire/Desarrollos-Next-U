@@ -1,0 +1,15 @@
+(UTP) Par trenzado no blindado
+(STP) Par trenzado Protegido (Usado cuando hay alta interferencia)
+Las velocidades se han convertido mas rapidas desde que empezo a utilizarse en 1990
+90 -> 10MBps
+90 - 95 -> 100MBps 
+2000 -> 1000MBps
+Actualidad -> 10GBps
+
+Categorias:
+Cat3 - 10Mbps
+Cat5e - 100MBps
+Cat6 - 1000MBps   100m
+Cat6a - 10GBps    50m
+
+V.I.V. tiene 300.48 metros de cable.
