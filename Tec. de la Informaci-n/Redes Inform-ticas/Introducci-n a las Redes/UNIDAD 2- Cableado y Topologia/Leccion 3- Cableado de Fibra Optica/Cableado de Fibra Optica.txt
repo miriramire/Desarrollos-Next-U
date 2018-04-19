@@ -1,0 +1,17 @@
+Su composicion es:
+Centro, fibra, revestimiento.
+
+Multimodo: Casi siempre es naranja. Utiliza leds
+Monomodo: Diseñado para viajar a distancias mayores. Normalmente amarilla. Utiliza lasers
+
+Conectores:
+Conector ST
+Conector SC
+Conector FC
+Conector LC
+Conector MT-RJ
+
+Pulido de la fibra:
+Pulido PC
+Pulido UPC
+Pulido APC
