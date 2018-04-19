@@ -1,0 +1,12 @@
+Organizacion del cableado.
+Ya que se pueden crear problemas de interferencia electromagnetica.
+Tener un extintor cerca.
+Tipo A: Papel Madera Basura
+Tipo B: Liquidos Grasas
+Tipo C: Equipo electrico
+
+Herramientas Recomandacion IFIXIT:
+Destornillador 2.
+
+Voltimetros:
+Multimetro: Rojo a FASE y Negro a NEUTRO / Rojo a FASE y Negro a TIERRA
