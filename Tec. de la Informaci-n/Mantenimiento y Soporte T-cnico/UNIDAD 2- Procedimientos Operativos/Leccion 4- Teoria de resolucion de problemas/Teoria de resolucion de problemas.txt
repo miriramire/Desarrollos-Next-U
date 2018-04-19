@@ -1,0 +1,7 @@
+1. Identificar el problema
+2. Establecer una teoria
+3. Probar la teoria
+4. Establecer un plan de accion
+5. Implementar la solucion
+6. Verificar el funcionamiento del sistema
+7. Documentar el trabajo
