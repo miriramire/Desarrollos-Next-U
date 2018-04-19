@@ -1,0 +1,6 @@
+Ethernet es el estandar de la IEEE 802.3. Desarrollado en 1980.
+Ethernet esta en las direcciones MAC de origen y destino. No sera mas grande a 1500 bytes.
+Nomenclatura:
+10 Base 5 (Velocidad - Banda Base - Largo de cable)
+10 Base T (10 indica la velocidad de transmisión en Megabits por segundo (Mb/s), BASE es la abreviatura de banda base y la T por utilizar cables de par trenzado.)
+10 GBase T
