@@ -1,0 +1,6 @@
+System Unit (Unidad del sistema): Almacenamiento y procesamiento ocurre.
+Lo que no esta en la unidad del istema se considera periferico.
+Monitor
+Teclado y mouse (Input)
+Parlantes
+Impresora
