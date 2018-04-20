@@ -1,0 +1,11 @@
+Tipos de puertos
+USB
+Ethernet: Conexion a red
+SPDIF: Conector de fibra Optica
+DVI: Conexion a un monitor
+Firewire: Usado en camara de video
+Mini Jacks: Mini RCA, conexiones a parlantes y microfones
+Power: Conexion de energia
+eSATA/HDMI: Conexion a disco externo / Conexion a monitor
+Frontal panel conections:
+Puertos legacy: Antiguas conexiones de mouse y teclado
