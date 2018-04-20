@@ -1,0 +1,1 @@
+En wireshark, la primera parte muestra los datos capturados, en la segunda muestra la informacion del paquete, alli se puede desglosar este y ver su contenido. En el tercer recuadro muestra el contenido en Hexadecimal
