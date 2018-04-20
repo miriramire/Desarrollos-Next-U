@@ -1,0 +1,5 @@
+PASO 1: Informacion almacenada.
+PASO 2: Proporcionar Input
+PASO 3: Informacion es procesada.
+PASO 4: Recibir output
+PASO 5: Devolver la Informacion al almacenamiento.
