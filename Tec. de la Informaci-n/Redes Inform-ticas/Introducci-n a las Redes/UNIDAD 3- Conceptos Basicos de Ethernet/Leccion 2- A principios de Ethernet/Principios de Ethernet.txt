@@ -1,0 +1,5 @@
+Ethernet Segmentado:
+CSMA/CD: Acceso Multiple con escucha de portadora y deteccion de colisiones
+Cuando un equipo desea transmitir, verifica primero si algun otro equipo esta transmitiendo.
+Deteccion de colisiones, electricamente es posible detectarlas. Cuando se detecta que alguien esta transmitiendo el equipo debe esperar un tiempo en milisegundos para volver a retransmitir.
+10Base2 era el tipo de conector usado, recore hasta 200 metros y se podian conectar hasta 300 computadores.
