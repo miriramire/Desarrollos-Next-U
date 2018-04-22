@@ -1,0 +1,12 @@
+Estandares de Gigabit:
+1000baseCX - Cable Twinax - 25 metros
+1000baseSX - Multimodo    - 500 metros
+1000baseLX - Monomodo     - 5000 metros
+1000baseT  - UTP Cat 6    - 100 metros
+
+Estandares de 10Gigabit:
+10GBase T  - Cat 6        - 55 metros
+10GBase T  - Cat 6A       - 100 metros
+10GbaseSR  - Multimodo    - 26 - 400 metros
+10GbaseLR  - Monomodo     - 10 K metros      - 1310 nm
+10GbaseER  - Monomodo     - 40 K metros      - 1550 nm
