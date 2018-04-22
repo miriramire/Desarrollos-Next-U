@@ -1,0 +1,8 @@
+Conexiones:
+directa:
+TIA 568A ---------------- TIA 568A
+TIA 568B ---------------- TIA 568B
+Cruzado:
+TIA 568B ---------------- TIA 568A
+TIA 568A ---------------- TIA 568B
+Algunos equipos detectantan automaticamente si la conexion es con un host, router o switch, por lo cual admite un cable directo.
