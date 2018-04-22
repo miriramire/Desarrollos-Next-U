@@ -1,0 +1,3 @@
+Convertidor de Interfaz Gigabit (GBIC): Estan diseñados para ser movidos dentro y fuera de la red.
+Se puede realizar un puenteo entre conmutadores para la interconexion entre ellos.
+Para evitar los bucle existe un protocolo llamado Spanning tree protocol (STP)
