@@ -1,0 +1,9 @@
+inicio
+equipo
+click derecho > propiedades
+admin de dispositivos
+adaptadores de red
+seleccionar la tarjeta
+opciones avanzadas
+velocidad y duplex (propiedades)
+negociacion automatica
