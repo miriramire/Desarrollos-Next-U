@@ -1,0 +1,7 @@
+Generador de energia, convierte la energia en DC de 5V o 12V.
+Tarjeta de Video,
+Memorias RAM
+Ventilador
+Motherboard
+
+Todos los artefactos del computador se conectan directa o indirectamente.
