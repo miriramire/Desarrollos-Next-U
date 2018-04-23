@@ -1,0 +1,9 @@
+Componentes:
+Armario, o cuarto de equipos.
+Tramo Horizontal
+Area de trabajo.
+
+El patch panel, se conecta al rack, donde todos los tramos de la oficina entran por detras del patch panel.
+Cable de conexion cat 6 o 6a.
+
+Estandares TIA/EIA 568A - 568B 
