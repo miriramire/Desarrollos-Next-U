@@ -1,0 +1,9 @@
+8 Marron          Marron
+7 B/Maron         B/Maron
+6 Verde           Naranja
+5 B/Azul          B/Azul
+4 Azul            Azul
+3 B/Verde         B/Naranja 
+2 Naranja         Verde
+1 B/Naranja       B/Verde
+568B              568A
