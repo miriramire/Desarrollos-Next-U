@@ -1,0 +1,5 @@
+Inicio > Programas
+La parte inferior derecha opuede ser, la bandeja del sistema o el area de notificaciones.
+Sidebar > Permite agregar gadgets o elementos
+Control cuenta de usuario > Muy usado al iniciar programas como admin.
+Panel de control > Herramienta de diagnostico de memoria (mal ram) - centro de seguridad (malware) - Personas cerca de mi alrededor 
