@@ -1,0 +1,4 @@
+Se utiliza el 110 Punch Down
+El panel realiza la division, ya que muestra como se debe realizar el ponchado de los cables.
+el 110 Punch Down es el patch panel.
+Al otro lado del cableado horizontal se encuentra un jack de RJ-45
