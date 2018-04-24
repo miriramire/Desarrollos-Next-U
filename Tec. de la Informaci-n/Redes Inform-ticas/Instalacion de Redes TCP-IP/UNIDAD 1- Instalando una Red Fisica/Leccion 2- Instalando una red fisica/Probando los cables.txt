@@ -1,0 +1,5 @@
+Hay herramientas que permiten probar el funcionamiento de los cableados.
+Comparan los pines para determinar el ponchado. Revisan la continuidad.
+Los microscanner, pueden revisar mas parametros en os cableados.
+Reflectometro de dominio de tiempo (TDR), funciona para ethernet y fibra (OTDR / TDR Optico)
+Diafonia: Perturbación electromagnética producida en un canal de comunicación por el acoplamiento de este con otro u otros vecinos
