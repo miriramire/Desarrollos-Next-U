@@ -1,0 +1,5 @@
+MDF (Marco de distribucion principal), Rack donde se encuentran los equipos, generalmente de 19"
+IDF: Todos los demás, denominados servicios de distribución intermedia (IDF), dependen del servicio de distribución principal. Una topología de este tipo se describe como una topología en estrella extendida.
+Dmarc: Punto de demarcacion, separa los equipos de la compañia de la de los proveedores.
+  Para pasar el cableado a las diferentes oficinas se crea una extension Dmarc
+Sala de equipos: Lugar donde se guardan los equipos de telecomunicaciones.
