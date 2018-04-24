@@ -1,0 +1,12 @@
+1. Identificar el acceso a internet desde tu SO
+2. Verificar las luces del enlace
+3. Comprobar la tarjeta de red, (Habilitada, IP)
+4. Bucle invertido
+5. Comprobar cable de conexion
+**************************************************
+Cuando se caen varias conexiones al mismo tiempo esta relacionado con el cuarto de equipos
+1. Verificar el voltaje, medidor de voltaje, se puede utilizar un UPS (Sistema de alimentacion ininterrumpida)
+2. Monitorear la temperatura
+3. Problemas con los tramos horizontales, (TDR)
+4. Interferencia en los tramos horizontales
+5. Distorcion Modal en Fibra, es el modo en que sale la luz del led y rebota (solo con multimodo)
