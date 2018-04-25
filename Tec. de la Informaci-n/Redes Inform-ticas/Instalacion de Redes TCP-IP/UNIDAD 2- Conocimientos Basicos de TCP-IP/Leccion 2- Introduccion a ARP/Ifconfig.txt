@@ -1,0 +1,3 @@
+Terminal en linux
+ifconfig - > muestra interfaces, mac e IPs.
+man ifconfig - > Manual de comandos de ifconfig
