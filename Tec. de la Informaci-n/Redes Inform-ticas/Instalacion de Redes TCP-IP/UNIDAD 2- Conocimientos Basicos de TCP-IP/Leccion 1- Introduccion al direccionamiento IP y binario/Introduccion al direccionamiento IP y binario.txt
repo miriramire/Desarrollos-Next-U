@@ -1,0 +1,9 @@
+Todo comutador tiene una direccion IP unica. Son 32 bits separados en 4 grupos de 8. Cada octeto tiene 256 combinaciones, de 0 a 255.
+
+
+
+
+*****************************************
+128    64    32    16    8    4   2   1
+ 1     1      0     0    0    1   0   1 = 197
+ 0     0      0     0    1    1   1   0 = 14
