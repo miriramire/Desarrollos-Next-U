@@ -1,0 +1,4 @@
+Para enviar una trama ethernet se necesitan las mac.
+ARP (Protocolo de Resolucion de direcciones), este es un broadcast y busca asociar una IP con una MAC
+
+C:> arp -a
