@@ -1,0 +1,2 @@
+Probador de tonos, mas conocido como generador de tonos y sonda de tonos.
+Se conecta en el sitio que desea averiguar donde esta conectado. En el patch panel se verifica en los puertos donde suena.
