@@ -1,1 +1,8 @@
-....
+Se incluyo experiencias y transparencia.
+Se pueden ver los programas al pasar el mouse.
+windows + tab
+W7 elimino el sidebar.
+-*******************************
+CLick d- personalizar - seleccionar uno de los temas para el encendido o apagado del aero.
+CLick d- gadgets - Agregar o quitar
+panel de control - Cuenta de usuario - Cambiar config de cuenta de user - (4 opciones para la accesibilidad para seguridad)
