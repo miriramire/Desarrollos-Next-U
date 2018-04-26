@@ -1,0 +1,6 @@
+La IANA se encarga de la asignacion de direccionamiento IP.
+LACNIC se encarga de brindar las IPS para latinoamerica.
+Generalmente estas direcciones se las brindan al ISP
+Clase A 0 - 126     /8
+Clase B 128 - 191   /16
+Clase C 192 - 223   /24
