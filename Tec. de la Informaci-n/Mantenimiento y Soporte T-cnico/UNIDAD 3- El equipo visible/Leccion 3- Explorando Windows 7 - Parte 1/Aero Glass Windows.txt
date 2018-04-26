@@ -1,0 +1,2 @@
+Combierte los marcos transparentes
+Ventanas activas en 3d con flip 3D.
