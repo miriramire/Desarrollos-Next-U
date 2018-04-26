@@ -1,0 +1,9 @@
+El ID de red identifica la red en que se encuentran los equipos.
+La mascara de red es el ID de red en unos.
+No se pueden utilizar 0 ni 255. ya que 0 es para el ID de red y 255 para mascaras
+
+
+ 10.10.     0.0
+|  ID  ||   Host    |
+255.255.       0.0   /16
+|  Mascara  |
