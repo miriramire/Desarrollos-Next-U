@@ -1,0 +1,2 @@
+En User datagram se observa el puerto Origen y destino, el largo del paquete y la verificacion(checksum).
+En el panel inferior se muestra en forma hexadecimal.
