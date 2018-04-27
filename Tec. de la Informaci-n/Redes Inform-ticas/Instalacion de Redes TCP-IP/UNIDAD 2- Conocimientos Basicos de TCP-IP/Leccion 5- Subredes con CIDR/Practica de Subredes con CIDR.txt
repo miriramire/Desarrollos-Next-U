@@ -1,0 +1,12 @@
+Pra calcular cuantas ips se necesitan se calcula asi:
+2^n - 2 = cantidad
+4 equipos
+2^3 - 2 = 6
+Asi que los hosts van a partir del 3er bit asi:
+192.168.16.0000 0000 /24
+ID de red: 192.168.16.0000 0|000 /29
+1er equipo: 192.168.16.0000 0|001 /29 => 192.168.16.1
+Ultimo equipo: 192.168.16.0000 0|110 /29 => 192.168.16.6
+Broadcast: 192.168.16.0000 0|111 /29 => 192.168.16.7
+
+Para calcular empezar por la cantidad de host mas grande y luego con las de menos.
