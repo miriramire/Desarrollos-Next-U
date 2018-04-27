@@ -1,0 +1,5 @@
+Centro de redes y recursos compartidos > 
+Alli puede mirar la conexion en:
+Informacion basica de red
+Para verificar la conexion selecciona:
+Estado de conexion de red 
