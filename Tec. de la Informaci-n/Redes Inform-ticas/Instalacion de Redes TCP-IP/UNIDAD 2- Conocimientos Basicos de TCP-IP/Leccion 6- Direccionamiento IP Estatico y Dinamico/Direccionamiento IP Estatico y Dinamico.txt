@@ -1,0 +1,10 @@
+DHCP (Protocolo de configuracion Huesped dinamico)
+BOOTP (Protocolo Bootstrap) utilizado por linux
+El equipo envia un broadcast solicitando un ip. EL servidor le ofrece una ip al equipo. El computador acepta y el servidor envia un acuse de recibo para aprovar.
+Por cada dominio de broadcast debe haber un servidor DHCP
+**********************************************************
+Windows:
+ipconfig
+ipconfig /all
+ipconfig /release
+ipconfig /renew
