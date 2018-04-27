@@ -1,0 +1,2 @@
+Click en internet > flags > campo de protocolo
+Transmision, puerto origen y destino, numero de secuencia
