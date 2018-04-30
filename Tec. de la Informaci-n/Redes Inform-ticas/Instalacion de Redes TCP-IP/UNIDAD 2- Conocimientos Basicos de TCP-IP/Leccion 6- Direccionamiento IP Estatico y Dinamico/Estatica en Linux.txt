@@ -1,0 +1,4 @@
+console > 
+ifcofig     -   Verificar la config de las tarjetas fisicas
+route       -   Tabla de enrutamiento
+sudo ifconfig enp0s3 10.0.2.15 netmask 255.255.255.0    -   Poniendo la ip a la interfaz
