@@ -1,0 +1,3 @@
+CMD.ESC localizado en c:/windows/system32/cmd
+Acceso directo
+Click d > Nuevo > Acceso directo > c:/windows/system32/cmd.exe > bucar > finalizar
