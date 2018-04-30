@@ -1,0 +1,1 @@
+En panel de control, cambia la configuracion de red a obtener una ip automaticamente.
