@@ -1,0 +1,3 @@
+%systemroot% identifica la ubicacion del systemroot
+En CMD copio "set" para encontrar las Variables de entorno
+tambien en CMD copio "echo %systemroot%"
