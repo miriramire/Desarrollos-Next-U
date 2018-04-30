@@ -1,0 +1,5 @@
+-Modifica el ID de red y su mascara
+-Selecciona el rango de IPs
+-Tiempo de arrendamiento de IP
+-Excluye las IPs 
+-Indica las IPs de los DNS
