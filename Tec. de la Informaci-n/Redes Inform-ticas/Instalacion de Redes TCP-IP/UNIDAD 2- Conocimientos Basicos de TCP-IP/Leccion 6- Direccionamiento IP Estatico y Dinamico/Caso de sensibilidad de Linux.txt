@@ -1,0 +1,7 @@
+console >
+help      -   comandos
+pwd       -   Verificar en que directorio esta
+help pwd  -   Comandos disponibles en pwd
+ls        -   Muestra el contenido del directorio
+
+Ditingue minusculas de mayusculas
