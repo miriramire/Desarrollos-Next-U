@@ -1,0 +1,7 @@
+Direcciones especiales
+Direccion APIPA - 169.254....
+Bucle invertido - 127.0.0.0
+Direcciones privadas:
+Clase A         - 10.0.0.0
+Clase B         - 172.16.0.0 / 172.31.0.0
+Clase C         - 192.168.0.0
