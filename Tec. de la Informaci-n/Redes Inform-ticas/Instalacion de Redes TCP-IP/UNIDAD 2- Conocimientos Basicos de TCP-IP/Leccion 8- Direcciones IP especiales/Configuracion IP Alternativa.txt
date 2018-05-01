@@ -1,0 +1,2 @@
+Hay una configuracion primaria y una alternativa.
+panel de control - centro de redes - click dere en interfaz - TCP/IP v4 - propiedades - config alternativa (Por defecto genera una ip APIPA)
