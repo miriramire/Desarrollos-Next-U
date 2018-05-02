@@ -1,0 +1,3 @@
+Los paquetes que ingresan a los routers, este los analiza y compara con una tabla de enrutamiento para direccionarlos.
+Cuando no saben hacia que puerto dirigirlo, lo envian por su default gateway.
+Basado en Metricas el router decide que ruta tomar. Entre mas baja sea la metrica, sera la primera opcion de la ruta a tomar.
