@@ -1,0 +1,4 @@
+Todos los equipos necesitan una IP unica.
+A mediados de los 90 se empezaron a agotar las IPv4
+Se inventaron la traduccion de direcciones IP NAT y PAT.
+Los routers al enviar las tramas con el NAT, guarda la informacion teniendo en cuenta que equipo envio la trama.
