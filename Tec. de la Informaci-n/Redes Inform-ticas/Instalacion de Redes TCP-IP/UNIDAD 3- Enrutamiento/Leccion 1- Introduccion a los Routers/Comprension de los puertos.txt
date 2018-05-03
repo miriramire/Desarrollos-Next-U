@@ -1,0 +1,1 @@
+Cada que se envia un paquete TCP se tiene IP destino y origen y se tiene puerto destino y origen.
