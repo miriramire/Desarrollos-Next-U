@@ -1,0 +1,2 @@
+Los routers vienen con un IP por defecto.
+Utilizar una IP estatica
