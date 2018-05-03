@@ -1,0 +1,4 @@
+control panel > Programas y caracteristicas > activar o desactivar las caracteristicas de windows > Activar el cliente de telnet
+pwd
+ls
+ls ..
