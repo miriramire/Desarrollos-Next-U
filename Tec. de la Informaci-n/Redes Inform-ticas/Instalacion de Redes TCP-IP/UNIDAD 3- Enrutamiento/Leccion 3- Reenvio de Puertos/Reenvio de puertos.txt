@@ -1,0 +1,3 @@
+Cuando deseas ingresar a un dispositivo en la LAN desde internet.
+Se puede configurar un reenvio de puertos, se configura el Tipo de puerto, la IP a donde se deasea acceder y el tipo de comunicacion, ya sea TCP o UDP.
+Se le puede agregar seguridad y modificar el puerto de origen.
