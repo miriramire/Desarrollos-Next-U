@@ -1,0 +1,3 @@
+mecanismo utilizado por routers IP para intercambiar paquetes entre dos redes que asignan mutuamente direcciones incompatibles.
+Lo que hace es traducir las IPs para poder navegar en internet con una IP privada.
+En Cisco en advanced settings se puede activar o desactivar.
