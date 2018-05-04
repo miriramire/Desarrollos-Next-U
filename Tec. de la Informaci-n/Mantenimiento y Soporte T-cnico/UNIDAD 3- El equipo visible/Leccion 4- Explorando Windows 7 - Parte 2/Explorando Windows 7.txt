@@ -1,0 +1,10 @@
+Cambio de vista de control panel.
+Tipos de registros (visor de eventos):
+1.Aplicacion
+2.Seguridad
+3.Instalacion
+4.sistema
+
+Modo de compatibilidad
+Propiedades dando click derecho en las apps.
+Ejecutar esta en app en modo de compatibilidad.
