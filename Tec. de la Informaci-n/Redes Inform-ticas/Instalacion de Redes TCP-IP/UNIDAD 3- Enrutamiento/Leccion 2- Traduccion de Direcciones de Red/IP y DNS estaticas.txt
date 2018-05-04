@@ -1,0 +1,1 @@
+poner una ip estatica en windows
