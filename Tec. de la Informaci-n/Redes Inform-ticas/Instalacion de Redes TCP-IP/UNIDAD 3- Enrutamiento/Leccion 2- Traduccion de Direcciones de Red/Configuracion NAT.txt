@@ -1,0 +1,1 @@
+Para proveer el router debe estar en modo Gateway.
