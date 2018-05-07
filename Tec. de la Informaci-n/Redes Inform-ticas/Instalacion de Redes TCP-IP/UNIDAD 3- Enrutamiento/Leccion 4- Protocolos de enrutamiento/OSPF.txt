@@ -1,0 +1,4 @@
+EL primer camino mas corto.
+Es IGP, Basado en ancho de banda. Se debe configurar con un enrutador desigando.
+Los ID de zona son las Loopback. y se hablan con equipos de su misma zona.
+Converge muy rapido
