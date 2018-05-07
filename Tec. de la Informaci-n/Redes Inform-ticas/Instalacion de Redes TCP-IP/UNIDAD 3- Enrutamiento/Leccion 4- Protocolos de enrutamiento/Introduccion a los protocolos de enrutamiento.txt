@@ -1,0 +1,18 @@
+El enrutamiento permite elegir la mejor ruta para enviar paquetes.
+Actualiza las tablas de enrutamiento.
+El enrutamiento dinamico actualiza las rutas.
+La metrica permite saber cual enrutamiento usar.
+La menor metrica es el camino que se escoje.
+Propiedades de la metrica:
+MTU (Unidad de transmision maxima)
+Ancho de banda
+Costo
+Latencia
+
+Vector distancia y estado enlace:
+RIP utiliza vector distancia, numero de saltos para llegar al destino. EL numero maximo de saltos es 15.
+Estado de enlace actualiza dinamicamenta los cambios en las tablas de rutas.
+
+Protocolos de puerta de enlace interior y exterior.
+Interior: OSPF, RIP, EIGRP
+Exterior: BGP
