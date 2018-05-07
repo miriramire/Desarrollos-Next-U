@@ -1,0 +1,7 @@
+Protocolo de Información de Encaminamiento
+es EGP, vector de distancia.
+Entre routers deben hablar el mismo protocolo, y llenan sus tablas de enrutamiento.
+Le toma tiempo escalar la convergencia.
+La version 1 tiene limitaciones, solo maneja clases A, B y C. No funciona VLSM ni CIDR.
+La version 2 corrigio las clases y ademas genera seguridad.
+No se permiten mas de 15 saltos.
