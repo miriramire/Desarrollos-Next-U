@@ -1,0 +1,5 @@
+Generalmente por defecto viene 192.168.0.1 o 192.168.1.1
+Cambiar la IP de la red.
+Cambiar el user y pass del router.
+Actualizar el firmware ayuda al router. Si falla se puede perder la conexion con e router.
+Para reseteo de fabrica se utiliza la regla 30 - 30 - 30 
