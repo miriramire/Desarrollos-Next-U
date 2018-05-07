@@ -1,0 +1,3 @@
+protocolo de puerta de enlace de frontera
+Es EGP, conecta distintos proveedores de servicios de internet. Se divide en AS la comunicacion. cada AS tiene un numero de 32 bits.
+Solo necesita saber el numero de AS a donde se dirige la informacion.
