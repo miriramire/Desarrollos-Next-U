@@ -1,0 +1,2 @@
+Reenvio de rango de puertos: redirecciona por rango de puertos a una IP
+DMZ (zona desmilitarizada): hace un redireccionamiento a una maquina en particular
