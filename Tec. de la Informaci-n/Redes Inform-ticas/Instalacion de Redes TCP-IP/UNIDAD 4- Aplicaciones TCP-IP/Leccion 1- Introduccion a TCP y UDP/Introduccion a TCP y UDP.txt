@@ -1,0 +1,14 @@
+Utilizamos TCP/IP para transferir datos entre equipos.
+TCP - Protocolo de control de transmision.
+UDP - Protocolo de datagramas de usuario.
+
+TCP es un protocolo orientado a la conexion, Es un proceso 3-Way Handshake, (SYN,SYN-ACK,ACK)
+El cliente envia un SYN al servidor.
+El servidor responde con un SYN-ACK.
+El cliente confirma la conexion con ACK.
+Para cerrar la conexion es:
+Puede ser por que termino la transmision de datos o porque se perdio la conexion.
+El cliente envia un FIN-ACK y el servidor responde con ACK.
+
+UDP no es un protocolo orientado a la conexion. Se envia un checksum para validar que la trama no esta corruta.
+Es muy utilizado en VoIP, Videoconference, DHCP ....
