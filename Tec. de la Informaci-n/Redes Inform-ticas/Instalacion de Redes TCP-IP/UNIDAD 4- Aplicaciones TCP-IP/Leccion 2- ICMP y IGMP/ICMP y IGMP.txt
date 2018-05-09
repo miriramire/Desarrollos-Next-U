@@ -1,0 +1,4 @@
+Los protocolos ICMP (Protocolo de mensajes de control de internet) e IGMP (Internet Group Management Protocol)
+Estos funcionan en la capa de red, 
+ICMP no utiliza puertos, no hay datos. El PING es un ICMP, que trata de comunicarse a nivel de IP.
+IGMP se utiliza para intercambiar información acerca del estado de pertenencia entre enrutadores IP que admiten la multidifusión y miembros de grupos de multidifusión. Las direcciones multicast empiezan por 224. Solo las maquinas en ese grupo de multicast podran compartir el recurso. Como un video.
