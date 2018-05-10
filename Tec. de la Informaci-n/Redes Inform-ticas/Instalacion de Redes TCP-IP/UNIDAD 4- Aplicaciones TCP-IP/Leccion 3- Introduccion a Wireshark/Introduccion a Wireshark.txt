@@ -1,0 +1,11 @@
+Wireshark es libre.
+En capture se selecciona la tarjeta que se desea analizar y se le da click en start.
+La pantalla se divide en 3.
+La primera muestra las tramas individuales.
+La segunda son los detalles de la trama que se ha selecionado
+La tercera es el formato de la trama en hexadecimal
+
+En la segunda ventana se puede desplegar la trama por capas del modelo OSI, en donde se encontrar MAC origen/destino, IP origen/destino, Puertos origen/destino, numeros de secuencia, entre otras.
+
+Se pueden filtrar las tramas.
+En el filtro se puede filtrar por DHCP, que seria bootp
