@@ -1,0 +1,10 @@
+Netstat muestra una lista de todos los puertos abiertos y conexiones de tu computador.
+Se puede verificar el protocolo de comunicacion, la IP, el puerto y si la conexion esta establecida.
+netstat -a muestra todos los archivos
+netstat -r muestra la tabla de enrutamiento local (route print)
+netstat -n muestra los resultados numericamente.
+netstat -b muestra los procesos que tiene las conexiones
+netstat -bn muestra el ejecutable de cada conexion
+netstat -bno muestra el id del proceso (PID).
+
+Explorador de procesos y TCP View
