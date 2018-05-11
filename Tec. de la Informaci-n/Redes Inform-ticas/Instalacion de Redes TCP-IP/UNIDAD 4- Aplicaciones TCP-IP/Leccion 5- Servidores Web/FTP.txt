@@ -1,0 +1,14 @@
+Protocolo de transferencia de archivos.
+Las cuentas anonimas permiten el acceso publico a los servidores. Estas cuentas no necesitan una contraseña.
+FTP no tiene ningun tipo de seguridad. para esto existe SFTP.
+
+FTP utiliza los puertos 20 y 21. corre por el 21 y responde por el 20
+Los ftp tambien funcionan en la web. ftp://xxx.xxx.xxx.xxx
+
+Para conectarse desde cmd:
+>ftp
+>open xxx.xxx.xxx.xxx
+>user
+>password
+
+Con GET se descargan archivos y con PUT se cargan
