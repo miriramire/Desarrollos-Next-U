@@ -1,0 +1,3 @@
+Microsoft IIS y Apache son servidores web.
+En wireshark se puede filtrar por HTTP.
+HTTP (TCP 80)
