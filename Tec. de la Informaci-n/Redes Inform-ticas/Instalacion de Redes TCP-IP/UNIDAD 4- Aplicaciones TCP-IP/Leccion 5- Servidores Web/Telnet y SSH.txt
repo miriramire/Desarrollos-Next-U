@@ -1,0 +1,2 @@
+Telnet y SSH permiten acceder remotamente a un equipo. SSH permite el acceso de modo seguro.
+Telnet usa el puerto 23 y SSH el 22.
