@@ -1,0 +1,6 @@
+SMTP usa el puerto 25, se usa para transferencia de correos.
+POP3 usa el puerto 110, se utiliza para transferencia de correos.
+IMAP4 usa el puerto 143, se utiliza para transferencia de correos.
+
+POP es antiguo, copia los archivos locales para organizar el correo. IMAP es basado en web, siempre esta la informacion disponible.
+En whireshark se puede filtrar SMTP
